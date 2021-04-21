@@ -11,10 +11,9 @@ for i = 1:2000                          % for loop with 2000 steps
     end
     xfinal(i)   = x;
     yfinal(i)   = y;
-    r(i)        = sqrt(x^2+y^2);
 end
 scatter(xfinal,yfinal,10,"filled") ;    % plot the random walk
 axis equal;                             % equal dimensions for axes
-xlabel('X','FontSize',14);              % x-axis label
+xlabel('x','FontSize',14);              % x-axis label
 ylabel('y','FontSize',14);              % y-axis label
 

@@ -1,7 +1,7 @@
 clear;                                  % clear variables and functions
 tic;                                    % start clock
 d     = 0.01;                           % jump size at each timestep
-np    = 500000;                         % number of particles
+np    = 1.e5;                         % number of particles
 tstep = 2000;                           % number of timesteps for each particle
 
 for i = 1:np                            % for each particle

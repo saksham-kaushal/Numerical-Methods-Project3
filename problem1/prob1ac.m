@@ -1,7 +1,7 @@
 clear;                                  % clear variables and functions
 tic;                                    % start clock
 d       = 0.01;    
-np      = 500000;                       % number of particles
+np      = 5.e5;                         % number of particles
 tstep   = 2000
 
 for i = 1:np    
