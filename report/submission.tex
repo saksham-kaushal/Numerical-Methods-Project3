@@ -101,7 +101,7 @@
 				\caption{Theoretical estimates and observed distribution of \(10^5\) random walk points. The blue histogram represents the observed number distribution , while the red line is a plot of analytical estimates.}
 				\label{fig:1d}
 			\end{subfigure}
-			\caption{Problem 1.1}
+			\caption{Plotted results for problem 1.1A.}
 			\label{fig:1}
 		\end{figure}
 		
@@ -245,22 +245,6 @@
 		% -------------------------------- Methods, Results ----------------------------------
 		
 		\section{Methods, Results and Discussions}
-		
-		\begin{figure} [h]
-			\begin{subfigure} {.475\columnwidth}
-				\includegraphics[width=\columnwidth]{../plots/2c_orbits.png}
-				\caption{2c}
-				\label{fig:2c}
-			\end{subfigure}
-			\hfill
-			\begin{subfigure} {.475\columnwidth}
-				\includegraphics[width=\columnwidth]{../plots/2d_energies.png}
-				\caption{2d}
-				\label{fig:2d}
-			\end{subfigure}
-			\caption{Problem 2}
-			\label{fig:2}
-		\end{figure}
 	
 		\begin{enumerate} [label*=\textbf{(\alph*)}]
 			
@@ -268,37 +252,238 @@
 			
 			\item
 				\subitem \textbf{Methods  --}
+				The dimensionless masses and positions of primary and secondary stars are respectively given by,
+				\begin{equation}
+					\begin{gathered}
+						\tilde{m}_p^{}=\frac{m_p^{}}{m} \text{ and } \tilde{m}_s^{}=\frac{m_s^{}}{m}, \\
+						\tilde{x}_p^{}=\frac{x_p^{}}{a}, \text{ and } \tilde{x}_s^{}=\frac{x_s^{}}{a},
+					\end{gathered}
+					\label{eq:dimensionless_mass_pos}
+				\end{equation}
+				where, \(m\) and \(a\) are the total mass and separation of binary respectively. For a circular binary, the gravitational force experienced by each star equals the centripetal force on the star. Mathematically,
+				\begin{equation}
+					\begin{gathered}
+						\frac{Gm_{s}^{}m_{p}^{}}{a^2_{}} = m_p^{} x_p^{} \omega^2_{} = m_s^{} x_s^{} \omega^2_{} , \\
+						\Rightarrow x_s^{} = \frac{x_p^{} m_p^{}}{m_s^{}}.
+					\end{gathered}
+					\label{eq:secondary_pos}
+				\end{equation}
+				Total separation of binary is the sum of positions of primary and secondary stars with respect to their centre of mass, \textit{i.e.} 
+				\begin{equation}
+					x_p^{}+x_s^{} = a.
+					\label{eq:binary_separation}
+				\end{equation}
+				Using equations \ref{eq:secondary_pos} and \ref{eq:binary_separation}, we obtain,
+				\begin{equation}
+					\begin{gathered}
+						x_p + \frac{x_p m_p}{m_s} = a \\
+						\Rightarrow x_p \left( \frac{m}{m_s}\right) = a \\
+						\Rightarrow \tilde{x}_p = \tilde{m}_s 
+					\end{gathered}
+					\label{eq:xp_tilde}
+				\end{equation}
+				This relation gives us the relation for dimensionless position of primary star. Similarly, we can also obtain the relation for dimensionless position of secondary star as,
+				\begin{equation}
+					\begin{gathered}
+						x_s + \frac{x_s m_s}{m_p} = a \\
+						\Rightarrow \tilde{x}_s = \tilde{m}_p
+					\end{gathered}
+					\label{eq:xs_tilde}
+				\end{equation}
+				
+				If we substitute the value of angular velocity, \(\omega =  v_p/r_p = v_s/r_s\), in equation \ref{eq:secondary_pos} for the two stars, we get,
+				\begin{equation}
+					\begin{gathered}
+						\frac{G m_s m_p}{a^2} = \frac{m_p v_p^2}{x_p} = \frac{m_s v_s^2}{x_s} \\
+						\Rightarrow \frac{v_p}{v_s} = \frac{m_s}{m_p}
+					\end{gathered}
+					\label{eq:gravity_centripetal}
+				\end{equation}
+				Multiplying both numerator and denominator of RHS by \(1/m\), we obtain,
+				\begin{equation}
+					\frac{v_p}{v_s} = \frac{\tilde{m}_s}{\tilde{m}_p}
+					\label{eq:velocity_mass_relation}
+				\end{equation}
+				
+				If we use the first relation of equation \ref{eq:gravity_centripetal}, we get,
+				\begin{equation}
+					\begin{gathered}
+						\frac{G m_s m_p}{a^2} = \frac{m_p v_p^2}{x_p} \\
+						\Rightarrow v_p^2 = \frac{G m_s x_p}{a^2} \\
+						\Rightarrow v_p^2 = \frac{Gm}{a} \tilde{m}_s \tilde{x}_p = \frac{Gm}{a} \tilde{m}_s^2,
+					\end{gathered}
+				\end{equation}
+				where, we have substituted values from equation set \ref{eq:dimensionless_mass_pos} and equation \ref{eq:xp_tilde}. In units of \(\sqrt{Gm/a}\), we obtain the value of dimensionless velocity of primary star as,
+					\begin{equation}
+						\tilde{v}_p = \tilde{m}_s
+						\label{eq:primary_velocity}
+					\end{equation}
+				By using equations \ref{eq:gravity_centripetal} and \ref{eq:primary_velocity}, we get dimensionless velocity of secondary as,
+					\begin{equation}
+						\tilde{v}_s = \tilde{m}_p
+						\label{eq:secondary_velocity}
+					\end{equation}
+				
+				Given that angular velocity \(\omega = 2\pi / T\), where \(T\) is the period of the circular binary, we can find the dimensionless time by using equation \ref{eq:secondary_pos}, as,
+				\begin{equation}
+					\begin{gathered}
+						\nonumber \frac{G m_s m_p}{a^2} = m_p x_p \omega^2 \\
+						\Rightarrow \frac{G m_s}{a^2} = \frac{4 \pi^2 x_p}{T^2} \\
+					\end{gathered}
+				\end{equation}
+				Using equations \ref{eq:dimensionless_mass_pos} and \ref{eq:xp_tilde}, we get,
+				\begin{equation}
+					\begin{gathered}
+						\frac{G m_s}{a^3} = \frac{4 \pi^2 m_s}{T^2 m} \\
+						\Rightarrow T = 2 \pi \sqrt{\frac{a^3}{Gm}}.
+					\end{gathered}
+				\end{equation}
+				In units of \(\sqrt{a^3/Gm}\), we therefore derive dimensionless time of a circular binary as,
+				\begin{equation}
+					\tilde{T} = 2 \pi
+					\label{eq:dimensionless_time}
+				\end{equation}
+				
 				\subitem \textbf{Results  --}
-				\subitem \textbf{Discussions  --}
+				In the given scenario, the stars lie in x-y plane, with their centre of mass at origin. Primary star has initial coordinates \((-x_{px},0)\) while the secondary stars lies initially at \((x_{py},0)\).\\
+				The stars rotate counter-clockwise, which gives us the velocity of primary star, \(-v_{py}\) and the velocity of secondary star, \(v_{sy}\).
+				Using equations \ref{eq:xp_tilde}, \ref{eq:xs_tilde}, \ref{eq:primary_velocity} and \ref{eq:secondary_velocity}, the dimensionless values of initial conditions of the stars are summarized in table \ref{table:2_initial_conditions}.\\ The value of dimensionless time period of binary is derived in equation \ref{eq:dimensionless_time} as \(2 \pi\).
+				
+				\begin{table}
+					\centering
+					\begin{tabular} {c c c c}
+						\toprule
+						\textbf{Parameter} & \textbf{Value} & \textbf{Parameter} & \textbf{Value} \\
+						(Primary Star) & & (Secondary star) & \\
+						\midrule
+						\(\tilde{x}_{px}\) & \(-\tilde{m}_s\) & \(\tilde{x}_{sx}\) & \(\tilde{m}_p\) \\
+						\(\tilde{x}_{py}\) & 0 & \(\tilde{x}_{sy}\) & 0\\
+						\(\tilde{v}_{px}\) & 0 & \(\tilde{v}_{sx}\) & 0 \\
+						\(\tilde{v}_{py}\) & \(-\tilde{m}_s\) & \(\tilde{v}_{sy}\) & \(\tilde{m}_p\) \\
+						\bottomrule
+					\end{tabular}
+				\caption{A summary of initial conditions for the simulation. All quantities are mentioned in dimensionless units, for a binary in x-y plane rotating counter-clockwise, with centre of mass at origin and primary star on the negative x-axis and secondary star on positive x-axis initially.}
+				\label{table:2_initial_conditions}
+				\end{table}
+				
+				%\subitem \textbf{Discussions  --}
 				
 			% ---------------------------------- (b) ---------------------------------------------
 			
 			\item
 				\subitem \textbf{Methods  --}
+				Given that,
+				\begin{equation}
+					\frac{m_p}{m_s} = 4
+					\label{eq:masses_ratio}
+				\end{equation}
+				Adding 1 on both side, we get,
+				\begin{equation}
+					\begin{gathered}
+						\nonumber \frac{m_p}{m_s} + 1 = 5 \\
+						\Rightarrow \frac{m_p+m_s}{m_s} = \frac{m}{m_s} = 5
+					\end{gathered}
+				\end{equation}
+				\begin{equation}
+					\Rightarrow \tilde{m}_s = \frac{m_s}{m} = \frac{1}{5} = 0.2
+					\label{eq:secondary_dimensionless_mass}
+				\end{equation}
+				
+				Using equations \ref{eq:dimensionless_mass_pos}, \ref{eq:masses_ratio} and \ref{eq:secondary_dimensionless_mass}, we can obtain the dimensionless mass of primary star as,
+				\begin{equation}
+					\tilde{m_p} = 4 \times \tilde{m_s} = 0.8
+					\label{eq:primary_dimensionless_mass}
+				\end{equation} 
+				
 				\subitem \textbf{Results  --}
-				\subitem \textbf{Discussions  --}
+				Using relations mentioned in table \ref{table:2_initial_conditions}, the initial conditions for the circular binary are defined in Matlab file \textit{binary.m} a shown in lines 13--20 of code \ref{code:2.1}. Using equations \ref{eq:secondary_dimensionless_mass} and \ref{eq:primary_dimensionless_mass}, the values of dimensionless masses of two stars are assigned in lines 11 and 12 as \texttt{mp = 0.8} and \texttt{ms = 0.2}.\\				
+				The value of \texttt{tmax} is set ot \(10\pi\). Since from equation \ref{eq:dimensionless_time}, it is known that the value of dimensionless time is \(2\pi\), this given value of \texttt{tmax} will allow simulation to sun for 5 orbits of the binary. 
+				
+				\begin{figure} [h] 
+					\lstinputlisting[caption=binary.m - Initial conditions of circularly rotating binary for a simulation of five orbital rotations., label=code:2.1,
+					firstline=7,firstnumber=9,
+					lastline=19]{../problem2/binary.m}
+				\end{figure}
+				
+%				\subitem \textbf{Discussions  --}
 			
+			\begin{figure} [h]
+				\begin{subfigure} {.475\columnwidth}
+					\includegraphics[width=\columnwidth]{../plots/2c_orbits.png}
+					\caption{Trajectories of primary and secondary stars in a circular binary system over the first five rotations.}
+					\label{fig:2c}
+				\end{subfigure}
+				\hfill
+				\begin{subfigure} {.485\columnwidth}
+					\includegraphics[width=\columnwidth]{../plots/2d_energies.png}
+					\caption{Analytically estimated and numerically calculated evolution of orbital energy over five rotations. The lines are seen to overlap, indicating good agreement of theoretical expectations with numerical results.}
+					\label{fig:2d}
+				\end{subfigure}
+				\caption{Plotted results for problem 2.}
+				\label{fig:2}
+			\end{figure}
+		
 			% ---------------------------------- (c) ---------------------------------------------
 			
 			\item
 				\subitem \textbf{Methods  --}
+				Executing the Matlab code resulted in creation of file named \emph{out}. This file is then used to plot the orbits of the two stars using the pre-existing program \emph{orbitplot.m}.
+				
 				\subitem \textbf{Results  --}
+				The obtained plot, which shows the trajectories of the two stars over 5 rotations is shown in figure \ref{fig:2c}. 
+				
 				\subitem \textbf{Discussions  --}
+				It can be observed that dimensionless orbital radii of primary and secondary stars are \(0.2\) and \(0.8\) respectively. The orbits are circular around the centre of mass lying at origin.
 			
 			% ---------------------------------- (d) ---------------------------------------------
 			
 			\item
 				\subitem \textbf{Methods  --}
+				The energy of binary star system is given by,
+				\begin{equation}
+					E = \frac{1}{2} m_p v_p^2 + \frac{1}{2} m_s v_s^2 - \frac{G m_p m_s}{r}
+					\label{eq:binary_energy}
+				\end{equation}
+				
+				From equation \ref{eq:gravity_centripetal}, we van obtain relations for velocities of primary and secondary stars at any positions in their orbits as,
+				\begin{equation}
+					\begin{gathered}
+						\frac{G m_s m_p}{r^2} = \frac{m_p v_p^2}{x_p} = \frac{m_s v_s^2}{x_s} \\
+						\Rightarrow v_p^2 = \frac{G m_s x_p}{r^2} \text{ and } v_s^2 = \frac{G m_p x_s}{r^2}
+					\end{gathered}
+				\end{equation}
+				
+				Substituting these values in equation \ref{eq:binary_energy} and using binary separation, \(r = a = x_p+x_s\) from equation \ref{eq:binary_separation}, we get
+				\begin{equation}
+					\begin{gathered}
+						\begin{aligned}
+							E &= \frac{G m_p m_s x_p}{2a^2} + \frac{G m_s m_p x_s}{2a^2} - \frac{G m_p m_s}{a} \\
+							&= \frac{G m_p m_s}{2a} - \frac{G m_p m_s}{a}\\
+							&= -\frac{G m_p m_s}{2a} 
+						\end{aligned}
+					\end{gathered}
+				\end{equation}
+				
+				In units of \(Gm^2/a\), the dimensionless energy is given by,
+				\begin{equation}
+					\tilde{E} = \cfrac{-\cfrac{G m_p m_s}{2a}}{\cfrac{G m^2}{a}} = -\cfrac{\tilde{m}_p \tilde{m}_s}{2}.
+					\label{eq:dimensionless_energy}
+				\end{equation}
+				
+				\begin{figure}
+					\lstinputlisting[caption=second code, label=code:2.2,
+					firstline=4]{../problem2/energyplot.m}
+				\end{figure}
+				
+				The values of \(m_p\), \(m_s\) and \emph{tmax} are assigned to variables \texttt{mp}, \texttt{ms} and \texttt{tmax} in lines 1-3 of code \ref{code:2.2}. The derived value of dimensionless energy is specified in line 7 of the code. The program in code \ref{code:2.2} plots the time evolution of numerically and analytically calculated energies of the binary.
+				
 				\subitem \textbf{Results  --}
+				The plot generated using code \ref{code:2.2} is shown in figure \ref{fig:2d}. The analytically estimated value of energy of the binary is given by equation \ref{eq:dimensionless_energy}.
+				
 				\subitem \textbf{Discussions  --}
+				From equation \ref{eq:dimensionless_energy} we can conclude that the dimensionless energy of binary star system is constant and less than zero. In this case, its value from equation \ref{eq:dimensionless_energy} turns out to be \(-0.08\). Figure \ref{fig:2d} shows that numerically obtained energy of the system is similar to analytically calculated energy, both showing no variation in value over time.
 			
 		\end{enumerate}
-		
-		\lstinputlisting[caption=first code, label=code:2.1,
-						firstline=7,firstnumber=9,
-						lastline=19]{../problem2/binary.m}
-		\lstinputlisting[caption=second code, label=code2.2,
-						firstline=4]{../problem2/energyplot.m}
 
 
 		% -------------------------------- Conclusions --------------------------------------
@@ -385,7 +570,7 @@
 					\bottomrule
 				\end{tabular}
 				\caption{Table of variable values for two values of D}
-				\label{table:dvalues}
+				\label{table:3_dvalues}
 			\end{table}
 			
 			\lstinputlisting[caption=code 1, label=code:3.initialc,

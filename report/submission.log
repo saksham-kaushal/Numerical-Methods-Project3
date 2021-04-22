@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.14)  21 APR 2021 05:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.14)  23 APR 2021 02:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -778,134 +778,146 @@ icate ignored
 <to be read again> 
                    \relax 
 l.247 		\section{Methods, Results and Discussions}
-                                                  
-<../plots/2c_orbits.png, id=220, 606.76688pt x 545.03625pt>
+                                                   [6
+
+] [7pdfTeX warning (ext4): destination with the same identifier (name{equation.
+2.18}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.401 				
+          pdfTeX warning (ext4): destination with the same identifier (name{equ
+ation.2.21}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.401 				
+          ] (../problem2/binary.m
+consecutive:
+)
+<../plots/2c_orbits.png, id=273, 606.76688pt x 545.03625pt>
 File: ../plots/2c_orbits.png Graphic file (type png)
 <use ../plots/2c_orbits.png>
-Package pdftex.def Info: ../plots/2c_orbits.png  used on input line 251.
+Package pdftex.def Info: ../plots/2c_orbits.png  used on input line 412.
 (pdftex.def)             Requested size: 215.1625pt x 193.27715pt.
-<../plots/2d_energies.png, id=221, 436.63126pt x 309.40594pt>
+<../plots/2d_energies.png, id=274, 436.63126pt x 309.40594pt>
 File: ../plots/2d_energies.png Graphic file (type png)
 <use ../plots/2d_energies.png>
-Package pdftex.def Info: ../plots/2d_energies.png  used on input line 257.
-(pdftex.def)             Requested size: 215.1625pt x 152.46948pt.
- (../problem2/binary.m
+Package pdftex.def Info: ../plots/2d_energies.png  used on input line 418.
+(pdftex.def)             Requested size: 219.6897pt x 155.67514pt.
+ [8 <../plots/2c_orbits.png (PNG copy)> <../plots/2d_energies.png (PNG copy)>] 
+(../problem2/energyplot.m
 consecutive:
-) (../problem2/energyplot.m
-consecutive:
-[6
-
- <../plots/2c_orbits.png (PNG copy)> <../plots/2d_energies.png (PNG copy)>])pdf
-TeX warning (ext4): destination with the same identifier (name{section.3}) has 
-been already used, duplicate ignored
+)pdfTeX warning (ext4): destination with the same identifier (name{section.3}) 
+has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.306 		\section{Conclusions}
-                              \label{2:conclusions} [7]pdfTeX warning (ext4): d
+l.491 		\section{Conclusions}
+                              \label{2:conclusions} [9]pdfTeX warning (ext4): d
 estination with the same identifier (name{section.1}) has been already used, du
 plicate ignored
 <to be read again> 
                    \relax 
-l.317 		\section{Introduction}
+l.502 		\section{Introduction}
                                \label{3:introduction}pdfTeX warning (ext4): des
 tination with the same identifier (name{section.2}) has been already used, dupl
 icate ignored
 <to be read again> 
                    \relax 
-l.321 		\section{Methods, Results and Discussions}
+l.506 		\section{Methods, Results and Discussions}
                                                   
-<../plots/3a_orbits_equalaxes.png, id=271, 429.10312pt x 310.91156pt>
+<../plots/3a_orbits_equalaxes.png, id=338, 429.10312pt x 310.91156pt>
 File: ../plots/3a_orbits_equalaxes.png Graphic file (type png)
 <use ../plots/3a_orbits_equalaxes.png>
-Package pdftex.def Info: ../plots/3a_orbits_equalaxes.png  used on input line 3
-26.
+Package pdftex.def Info: ../plots/3a_orbits_equalaxes.png  used on input line 5
+11.
 (pdftex.def)             Requested size: 226.48395pt x 164.10391pt.
-<../plots/3b_secondaryorbit.png, id=272, 429.10312pt x 310.91156pt>
+<../plots/3b_secondaryorbit.png, id=339, 429.10312pt x 310.91156pt>
 File: ../plots/3b_secondaryorbit.png Graphic file (type png)
 <use ../plots/3b_secondaryorbit.png>
-Package pdftex.def Info: ../plots/3b_secondaryorbit.png  used on input line 332
+Package pdftex.def Info: ../plots/3b_secondaryorbit.png  used on input line 517
 .
 (pdftex.def)             Requested size: 226.48395pt x 164.10391pt.
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 325--336
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 510--521
 []$[]$  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--336
+Underfull \hbox (badness 10000) in paragraph at lines 510--521
 
  []
 
-<../plots/3c_energy.png, id=273, 421.575pt x 316.18124pt>
+<../plots/3c_energy.png, id=340, 421.575pt x 316.18124pt>
 File: ../plots/3c_energy.png Graphic file (type png)
 <use ../plots/3c_energy.png>
-Package pdftex.def Info: ../plots/3c_energy.png  used on input line 339.
+Package pdftex.def Info: ../plots/3c_energy.png  used on input line 524.
 (pdftex.def)             Requested size: 226.48395pt x 169.86691pt.
-<../plots/3d_orbitsdisruption_equalaxes.png, id=274, 429.10312pt x 310.91156pt>
+<../plots/3d_orbitsdisruption_equalaxes.png, id=341, 429.10312pt x 310.91156pt>
 
 File: ../plots/3d_orbitsdisruption_equalaxes.png Graphic file (type png)
 <use ../plots/3d_orbitsdisruption_equalaxes.png>
 Package pdftex.def Info: ../plots/3d_orbitsdisruption_equalaxes.png  used on in
-put line 349.
+put line 534.
 (pdftex.def)             Requested size: 226.48395pt x 164.10391pt.
-<../plots/3d_secondaryorbitdisruption_equalaxes.png, id=275, 421.575pt x 316.18
+<../plots/3d_secondaryorbitdisruption_equalaxes.png, id=342, 421.575pt x 316.18
 124pt>
 File: ../plots/3d_secondaryorbitdisruption_equalaxes.png Graphic file (type png
 )
 <use ../plots/3d_secondaryorbitdisruption_equalaxes.png>
 Package pdftex.def Info: ../plots/3d_secondaryorbitdisruption_equalaxes.png  us
-ed on input line 355.
+ed on input line 540.
 (pdftex.def)             Requested size: 226.48395pt x 169.86691pt.
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 348--359
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 533--544
 []$[]$  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--359
+Underfull \hbox (badness 10000) in paragraph at lines 533--544
 
  []
 
-<../plots/3d_energy.png, id=276, 421.575pt x 316.18124pt>
+<../plots/3d_energy.png, id=343, 421.575pt x 316.18124pt>
 File: ../plots/3d_energy.png Graphic file (type png)
 <use ../plots/3d_energy.png>
-Package pdftex.def Info: ../plots/3d_energy.png  used on input line 362.
+Package pdftex.def Info: ../plots/3d_energy.png  used on input line 547.
 (pdftex.def)             Requested size: 226.48395pt x 169.86691pt.
 (../problem3d/initialc.m
 consecutive:
-[8
+[10
 
  <../plots/3a_orbits_equalaxes.png (PNG copy)> <../plots/3b_secondaryorbit.png 
-(PNG copy)> <../plots/3c_energy.png (PNG copy)>] [9 <../plots/3d_orbitsdisrupti
-on_equalaxes.png (PNG copy)> <../plots/3d_secondaryorbitdisruption_equalaxes.pn
-g (PNG copy)> <../plots/3d_energy.png (PNG copy)>]) (../problem3d/f.m)pdfTeX wa
-rning (ext4): destination with the same identifier (name{section.3}) has been a
-lready used, duplicate ignored
+(PNG copy)> <../plots/3c_energy.png (PNG copy)>] [11 <../plots/3d_orbitsdisrupt
+ion_equalaxes.png (PNG copy)> <../plots/3d_secondaryorbitdisruption_equalaxes.p
+ng (PNG copy)> <../plots/3d_energy.png (PNG copy)>]) (../problem3d/f.m)pdfTeX w
+arning (ext4): destination with the same identifier (name{section.3}) has been 
+already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.431 		\section{Conclusions}
+l.616 		\section{Conclusions}
                               \label{3:conclusions}
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 435.
- [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 435.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 620.
+ [12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 620.
  (./submission.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 435.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 435.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 620.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 620.
 Package rerunfilecheck Info: File `submission.out' has not changed.
 (rerunfilecheck)             Checksum: 931835D69C620B610E145167454B5359;703.
 Package logreq Info: Writing requests to 'submission.run.xml'.
 \openout1 = `submission.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 435.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 620.
  ) 
 Here is how much of TeX's memory you used:
- 17644 strings out of 482555
- 291894 string characters out of 5952145
+ 17684 strings out of 482555
+ 292569 string characters out of 5952145
  932672 words of memory out of 5000000
- 32854 multiletter control sequences out of 15000+600000
+ 32870 multiletter control sequences out of 15000+600000
  538837 words of font info for 47 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,10n,47p,940b,1970s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,12n,47p,940b,1970s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texli
@@ -926,10 +938,10 @@ type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmtt8.pfb>
-Output written on submission.pdf (11 pages, 415528 bytes).
+Output written on submission.pdf (13 pages, 436541 bytes).
 PDF statistics:
- 446 PDF objects out of 1000 (max. 8388607)
- 396 compressed objects within 4 object streams
- 193 named destinations out of 1000 (max. 500000)
+ 522 PDF objects out of 1000 (max. 8388607)
+ 469 compressed objects within 5 object streams
+ 217 named destinations out of 1000 (max. 500000)
  157 words of extra memory for PDF output out of 10000 (max. 10000000)
 
