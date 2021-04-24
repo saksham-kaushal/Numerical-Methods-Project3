@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.14)  24 APR 2021 10:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.14)  25 APR 2021 01:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -822,119 +822,414 @@ ate ignored
 <to be read again> 
                    \relax 
 l.505 		\section{Introduction}
-                               \label{3:introduction}pdfTeX warning (ext4): des
-tination with the same identifier (name{section.2}) has been already used, dupl
-icate ignored
+                               \label{3:introduction} [9]pdfTeX warning (ext4):
+ destination with the same identifier (name{section.2}) has been already used, 
+duplicate ignored
 <to be read again> 
                    \relax 
-l.509 		\section{Methods, Results and Discussions}
+l.511 		\section{Methods, Results and Discussions}
                                                   
-<../plots/3a_orbits_equalaxes.png, id=312, 429.10312pt x 310.91156pt>
+<../plots/3a_orbits_equalaxes.png, id=339, 429.10312pt x 310.91156pt>
 File: ../plots/3a_orbits_equalaxes.png Graphic file (type png)
 <use ../plots/3a_orbits_equalaxes.png>
 Package pdftex.def Info: ../plots/3a_orbits_equalaxes.png  used on input line 5
-14.
+16.
 (pdftex.def)             Requested size: 226.48395pt x 164.10391pt.
-<../plots/3b_secondaryorbit.png, id=313, 429.10312pt x 310.91156pt>
+<../plots/3b_secondaryorbit.png, id=340, 429.10312pt x 310.91156pt>
 File: ../plots/3b_secondaryorbit.png Graphic file (type png)
 <use ../plots/3b_secondaryorbit.png>
-Package pdftex.def Info: ../plots/3b_secondaryorbit.png  used on input line 520
+Package pdftex.def Info: ../plots/3b_secondaryorbit.png  used on input line 522
 .
 (pdftex.def)             Requested size: 226.48395pt x 164.10391pt.
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 513--524
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 515--526
 []$[]$  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 513--524
+Underfull \hbox (badness 10000) in paragraph at lines 515--526
 
  []
 
-<../plots/3c_energy.png, id=314, 429.10312pt x 310.91156pt>
+<../plots/3c_energy.png, id=341, 429.10312pt x 310.91156pt>
 File: ../plots/3c_energy.png Graphic file (type png)
 <use ../plots/3c_energy.png>
-Package pdftex.def Info: ../plots/3c_energy.png  used on input line 527.
+Package pdftex.def Info: ../plots/3c_energy.png  used on input line 529.
 (pdftex.def)             Requested size: 226.48395pt x 164.10391pt.
-[9] (../problem3d/f.m)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 [10 <../plots/3a_orbits_equalaxes.png (PNG copy)> <../plots/3b_secondaryorbit.p
-ng (PNG copy)> <../plots/3c_energy.png (PNG copy)>] (../problem3d/initialc.m
+ng (PNG copy)> <../plots/3c_energy.png (PNG copy)>] (../problem3d/f.m)
+(../problem3d/initialc.m
 consecutive:
-) [11] [12pdfTeX warning (ext4): destination with the same identifier (name{equ
-ation.2.41}) has been already used, duplicate ignored
+) [11] [12]
+Underfull \hbox (badness 10000) in paragraph at lines 745--746
+
+ []
+
+[13pdfTeX warning (ext4): destination with the same identifier (name{equation.2
+.41}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.688 					\end{equation}
-                         ] [13] (../problem3d/script4.m
+l.746 \newpage
+              					] (../problem3d/script4.m
 consecutive:
 ) (../problem3d/script4.m
 consecutive:
 ) (../problem3d/script4.m
 consecutive:
-) [14]
-<../plots/3d_orbitsdisruption_equalaxes.png, id=512, 429.10312pt x 310.91156pt>
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14]
+<../plots/3d_orbitsdisruption_equalaxes.png, id=503, 429.10312pt x 310.91156pt>
 
 File: ../plots/3d_orbitsdisruption_equalaxes.png Graphic file (type png)
 <use ../plots/3d_orbitsdisruption_equalaxes.png>
 Package pdftex.def Info: ../plots/3d_orbitsdisruption_equalaxes.png  used on in
-put line 820.
+put line 824.
 (pdftex.def)             Requested size: 226.48395pt x 164.10391pt.
-<../plots/3d_secondaryorbitdisruption_equalaxes.png, id=513, 421.575pt x 316.18
+<../plots/3d_secondaryorbitdisruption_equalaxes.png, id=504, 421.575pt x 316.18
 124pt>
 File: ../plots/3d_secondaryorbitdisruption_equalaxes.png Graphic file (type png
 )
 <use ../plots/3d_secondaryorbitdisruption_equalaxes.png>
 Package pdftex.def Info: ../plots/3d_secondaryorbitdisruption_equalaxes.png  us
-ed on input line 826.
+ed on input line 830.
 (pdftex.def)             Requested size: 226.48395pt x 169.86691pt.
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 819--830
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 823--834
 []$[]$  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 819--830
+Underfull \hbox (badness 10000) in paragraph at lines 823--834
 
  []
 
-<../plots/3d_energy.png, id=514, 429.10312pt x 310.91156pt>
+<../plots/3d_energy.png, id=505, 429.10312pt x 310.91156pt>
 File: ../plots/3d_energy.png Graphic file (type png)
 <use ../plots/3d_energy.png>
-Package pdftex.def Info: ../plots/3d_energy.png  used on input line 833.
+Package pdftex.def Info: ../plots/3d_energy.png  used on input line 837.
 (pdftex.def)             Requested size: 226.48395pt x 164.10391pt.
-[15 <../plots/3d_orbitsdisruption_equalaxes.png (PNG copy)> <../plots/3d_second
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15] (../problem3f/HVS.m
+consecutive:
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+(../problem3f/initialc_retrograde.m
+consecutive:
+
+Overfull \hbox (20.57079pt too wide) in paragraph at lines 16--17
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.57077pt too wide) in paragraph at lines 17--18
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.57077pt too wide) in paragraph at lines 18--19
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+)
+Overfull \hbox (20.57079pt too wide) in paragraph at lines 19--901
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+(../problem3f/initialc_prograde.m
+consecutive:
+
+Overfull \hbox (20.57077pt too wide) in paragraph at lines 16--17
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.57079pt too wide) in paragraph at lines 17--18
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.57079pt too wide) in paragraph at lines 18--19
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+)
+Overfull \hbox (20.57077pt too wide) in paragraph at lines 19--907
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 907--907
+[]\OT1/cmr/bx/n/7 Code (14) |\OT1/cmr/m/n/7 ini-tialc.m - Ini-tial ve-loc-i-tie
+s for counter-
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+(../problem3f/script4.m)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[16 <../plots/3d_orbitsdisruption_equalaxes.png (PNG copy)> <../plots/3d_second
 aryorbitdisruption_equalaxes.png (PNG copy)> <../plots/3d_energy.png (PNG copy)
->]pdfTeX warning (ext4): destination with the same identifier (name{section.3})
- has been already used, duplicate ignored
+>]
+<../plots/3f/retrograde_orbits/6.png, id=549, 429.10312pt x 310.91156pt>
+File: ../plots/3f/retrograde_orbits/6.png Graphic file (type png)
+<use ../plots/3f/retrograde_orbits/6.png>
+Package pdftex.def Info: ../plots/3f/retrograde_orbits/6.png  used on input lin
+e 926.
+(pdftex.def)             Requested size: 192.51187pt x 105.88405pt.
+<../plots/3f/retrograde_orbits/5.png, id=550, 429.10312pt x 310.91156pt>
+File: ../plots/3f/retrograde_orbits/5.png Graphic file (type png)
+<use ../plots/3f/retrograde_orbits/5.png>
+Package pdftex.def Info: ../plots/3f/retrograde_orbits/5.png  used on input lin
+e 927.
+(pdftex.def)             Requested size: 192.51187pt x 105.88405pt.
+<../plots/3f/retrograde_orbits/4.png, id=551, 429.10312pt x 310.91156pt>
+File: ../plots/3f/retrograde_orbits/4.png Graphic file (type png)
+<use ../plots/3f/retrograde_orbits/4.png>
+Package pdftex.def Info: ../plots/3f/retrograde_orbits/4.png  used on input lin
+e 928.
+(pdftex.def)             Requested size: 192.51187pt x 105.88405pt.
+<../plots/3f/retrograde_orbits/3.png, id=552, 429.10312pt x 310.91156pt>
+File: ../plots/3f/retrograde_orbits/3.png Graphic file (type png)
+<use ../plots/3f/retrograde_orbits/3.png>
+Package pdftex.def Info: ../plots/3f/retrograde_orbits/3.png  used on input lin
+e 929.
+(pdftex.def)             Requested size: 192.51187pt x 105.88405pt.
+<../plots/3f/retrograde_orbits/2.png, id=553, 429.10312pt x 310.91156pt>
+File: ../plots/3f/retrograde_orbits/2.png Graphic file (type png)
+<use ../plots/3f/retrograde_orbits/2.png>
+Package pdftex.def Info: ../plots/3f/retrograde_orbits/2.png  used on input lin
+e 930.
+(pdftex.def)             Requested size: 192.51187pt x 105.88405pt.
+<../plots/3f/retrograde_orbits/1.png, id=554, 421.575pt x 316.18124pt>
+File: ../plots/3f/retrograde_orbits/1.png Graphic file (type png)
+<use ../plots/3f/retrograde_orbits/1.png>
+Package pdftex.def Info: ../plots/3f/retrograde_orbits/1.png  used on input lin
+e 931.
+(pdftex.def)             Requested size: 192.51164pt x 105.87915pt.
+<../plots/3f/prograde_orbits/6.png, id=555, 429.10312pt x 310.91156pt>
+File: ../plots/3f/prograde_orbits/6.png Graphic file (type png)
+<use ../plots/3f/prograde_orbits/6.png>
+Package pdftex.def Info: ../plots/3f/prograde_orbits/6.png  used on input line 
+935.
+(pdftex.def)             Requested size: 192.51187pt x 105.88405pt.
+<../plots/3f/prograde_orbits/5.png, id=556, 429.10312pt x 310.91156pt>
+File: ../plots/3f/prograde_orbits/5.png Graphic file (type png)
+<use ../plots/3f/prograde_orbits/5.png>
+Package pdftex.def Info: ../plots/3f/prograde_orbits/5.png  used on input line 
+936.
+(pdftex.def)             Requested size: 192.51187pt x 105.88405pt.
+<../plots/3f/prograde_orbits/4.png, id=557, 429.10312pt x 310.91156pt>
+File: ../plots/3f/prograde_orbits/4.png Graphic file (type png)
+<use ../plots/3f/prograde_orbits/4.png>
+Package pdftex.def Info: ../plots/3f/prograde_orbits/4.png  used on input line 
+937.
+(pdftex.def)             Requested size: 192.51187pt x 105.88405pt.
+<../plots/3f/prograde_orbits/3.png, id=558, 429.10312pt x 310.91156pt>
+File: ../plots/3f/prograde_orbits/3.png Graphic file (type png)
+<use ../plots/3f/prograde_orbits/3.png>
+Package pdftex.def Info: ../plots/3f/prograde_orbits/3.png  used on input line 
+938.
+(pdftex.def)             Requested size: 192.51187pt x 105.88405pt.
+<../plots/3f/prograde_orbits/2.png, id=559, 421.575pt x 316.18124pt>
+File: ../plots/3f/prograde_orbits/2.png Graphic file (type png)
+<use ../plots/3f/prograde_orbits/2.png>
+Package pdftex.def Info: ../plots/3f/prograde_orbits/2.png  used on input line 
+939.
+(pdftex.def)             Requested size: 192.51164pt x 105.87915pt.
+<../plots/3f/prograde_orbits/1.png, id=560, 414.04688pt x 321.45094pt>
+File: ../plots/3f/prograde_orbits/1.png Graphic file (type png)
+<use ../plots/3f/prograde_orbits/1.png>
+Package pdftex.def Info: ../plots/3f/prograde_orbits/1.png  used on input line 
+940.
+(pdftex.def)             Requested size: 192.51717pt x 105.88293pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../plots/3f/retrograde_energies/6.png, id=561, 371.7087pt x 301.8477pt>
+File: ../plots/3f/retrograde_energies/6.png Graphic file (type png)
+<use ../plots/3f/retrograde_energies/6.png>
+Package pdftex.def Info: ../plots/3f/retrograde_energies/6.png  used on input l
+ine 949.
+(pdftex.def)             Requested size: 192.51259pt x 105.88316pt.
+<../plots/3f/retrograde_energies/5.png, id=562, 377.4903pt x 297.0297pt>
+File: ../plots/3f/retrograde_energies/5.png Graphic file (type png)
+<use ../plots/3f/retrograde_energies/5.png>
+Package pdftex.def Info: ../plots/3f/retrograde_energies/5.png  used on input l
+ine 951.
+(pdftex.def)             Requested size: 192.51173pt x 105.88364pt.
+<../plots/3f/retrograde_energies/4.png, id=563, 371.7087pt x 301.8477pt>
+File: ../plots/3f/retrograde_energies/4.png Graphic file (type png)
+<use ../plots/3f/retrograde_energies/4.png>
+Package pdftex.def Info: ../plots/3f/retrograde_energies/4.png  used on input l
+ine 953.
+(pdftex.def)             Requested size: 192.51259pt x 105.88316pt.
+<../plots/3f/retrograde_energies/3.png, id=564, 371.4678pt x 301.8477pt>
+File: ../plots/3f/retrograde_energies/3.png Graphic file (type png)
+<use ../plots/3f/retrograde_energies/3.png>
+Package pdftex.def Info: ../plots/3f/retrograde_energies/3.png  used on input l
+ine 955.
+(pdftex.def)             Requested size: 192.51819pt x 105.88316pt.
+<../plots/3f/retrograde_energies/2.png, id=565, 374.5995pt x 303.2931pt>
+File: ../plots/3f/retrograde_energies/2.png Graphic file (type png)
+<use ../plots/3f/retrograde_energies/2.png>
+Package pdftex.def Info: ../plots/3f/retrograde_energies/2.png  used on input l
+ine 957.
+(pdftex.def)             Requested size: 192.5122pt x 105.88112pt.
+<../plots/3f/retrograde_energies/1.png, id=566, 364.9635pt x 303.2931pt>
+File: ../plots/3f/retrograde_energies/1.png Graphic file (type png)
+<use ../plots/3f/retrograde_energies/1.png>
+Package pdftex.def Info: ../plots/3f/retrograde_energies/1.png  used on input l
+ine 959.
+(pdftex.def)             Requested size: 192.51643pt x 105.88112pt.
+
+Overfull \hbox (2.22122pt too wide) in paragraph at lines 949--960
+ [] 
+ []
+
+
+Overfull \hbox (2.22208pt too wide) in paragraph at lines 949--960
+ [] 
+ []
+
+
+Overfull \hbox (2.22768pt too wide) in paragraph at lines 949--960
+ [] 
+ []
+
+
+Overfull \hbox (2.2217pt too wide) in paragraph at lines 949--960
+ [] 
+ []
+
+
+Overfull \hbox (2.22592pt too wide) in paragraph at lines 949--960
+ [] 
+ []
+
+<../plots/3f/prograde_energies/6.png, id=567, 377.4903pt x 297.0297pt>
+File: ../plots/3f/prograde_energies/6.png Graphic file (type png)
+<use ../plots/3f/prograde_energies/6.png>
+Package pdftex.def Info: ../plots/3f/prograde_energies/6.png  used on input lin
+e 963.
+(pdftex.def)             Requested size: 192.51173pt x 105.88364pt.
+<../plots/3f/prograde_energies/5.png, id=568, 371.2269pt x 301.6068pt>
+File: ../plots/3f/prograde_energies/5.png Graphic file (type png)
+<use ../plots/3f/prograde_energies/5.png>
+Package pdftex.def Info: ../plots/3f/prograde_energies/5.png  used on input lin
+e 965.
+(pdftex.def)             Requested size: 192.5123pt x 105.8815pt.
+<../plots/3f/prograde_energies/4.png, id=569, 371.7087pt x 301.8477pt>
+File: ../plots/3f/prograde_energies/4.png Graphic file (type png)
+<use ../plots/3f/prograde_energies/4.png>
+Package pdftex.def Info: ../plots/3f/prograde_energies/4.png  used on input lin
+e 967.
+(pdftex.def)             Requested size: 192.51259pt x 105.88316pt.
+<../plots/3f/prograde_energies/3.png, id=570, 371.4678pt x 301.8477pt>
+File: ../plots/3f/prograde_energies/3.png Graphic file (type png)
+<use ../plots/3f/prograde_energies/3.png>
+Package pdftex.def Info: ../plots/3f/prograde_energies/3.png  used on input lin
+e 969.
+(pdftex.def)             Requested size: 192.51819pt x 105.88316pt.
+<../plots/3f/prograde_energies/2.png, id=571, 364.9635pt x 303.2931pt>
+File: ../plots/3f/prograde_energies/2.png Graphic file (type png)
+<use ../plots/3f/prograde_energies/2.png>
+Package pdftex.def Info: ../plots/3f/prograde_energies/2.png  used on input lin
+e 971.
+(pdftex.def)             Requested size: 192.51643pt x 105.88112pt.
+<../plots/3f/prograde_energies/1.png, id=572, 380.3811pt x 298.4751pt>
+File: ../plots/3f/prograde_energies/1.png Graphic file (type png)
+<use ../plots/3f/prograde_energies/1.png>
+Package pdftex.def Info: ../plots/3f/prograde_energies/1.png  used on input lin
+e 973.
+(pdftex.def)             Requested size: 192.51173pt x 105.88425pt.
+
+Overfull \hbox (2.22179pt too wide) in paragraph at lines 963--974
+ [] 
+ []
+
+
+Overfull \hbox (2.22208pt too wide) in paragraph at lines 963--974
+ [] 
+ []
+
+
+Overfull \hbox (2.22768pt too wide) in paragraph at lines 963--974
+ [] 
+ []
+
+
+Overfull \hbox (2.22592pt too wide) in paragraph at lines 963--974
+ [] 
+ []
+
+
+Overfull \hbox (2.22122pt too wide) in paragraph at lines 963--974
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 9.12944pt on input line 977.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17] [18] [19 <../plots/3f/retrograde_orbits/6.png (PNG copy)> <../plots/3f/ret
+rograde_orbits/5.png (PNG copy)> <../plots/3f/retrograde_orbits/4.png (PNG copy
+)> <../plots/3f/retrograde_orbits/3.png (PNG copy)> <../plots/3f/retrograde_orb
+its/2.png (PNG copy)> <../plots/3f/retrograde_orbits/1.png (PNG copy)> <../plot
+s/3f/prograde_orbits/6.png (PNG copy)> <../plots/3f/prograde_orbits/5.png (PNG 
+copy)> <../plots/3f/prograde_orbits/4.png (PNG copy)> <../plots/3f/prograde_orb
+its/3.png (PNG copy)> <../plots/3f/prograde_orbits/2.png (PNG copy)> <../plots/
+3f/prograde_orbits/1.png (PNG copy)>] [20 <../plots/3f/retrograde_energies/6.pn
+g (PNG copy)> <../plots/3f/retrograde_energies/5.png (PNG copy)> <../plots/3f/r
+etrograde_energies/4.png (PNG copy)> <../plots/3f/retrograde_energies/3.png (PN
+G copy)> <../plots/3f/retrograde_energies/2.png (PNG copy)> <../plots/3f/retrog
+rade_energies/1.png (PNG copy)> <../plots/3f/prograde_energies/6.png (PNG copy)
+> <../plots/3f/prograde_energies/5.png (PNG copy)> <../plots/3f/prograde_energi
+es/4.png (PNG copy)> <../plots/3f/prograde_energies/3.png (PNG copy)> <../plots
+/3f/prograde_energies/2.png (PNG copy)> <../plots/3f/prograde_energies/1.png (P
+NG copy)>]pdfTeX warning (ext4): destination with the same identifier (name{sec
+tion.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.890 		\section{Conclusions}
-                              \label{3:conclusions}
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 894.
- [16]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 894.
+l.1017 		\section{Conclusions}
+                               \label{3:conclusions}
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1021.
+ [21
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1021.
  (./submission.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 894.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 894.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1021.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1021.
+
 Package rerunfilecheck Info: File `submission.out' has not changed.
 (rerunfilecheck)             Checksum: 931835D69C620B610E145167454B5359;703.
 Package logreq Info: Writing requests to 'submission.run.xml'.
 \openout1 = `submission.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 894.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1021.
  ) 
 Here is how much of TeX's memory you used:
- 17789 strings out of 482555
- 294053 string characters out of 5952145
- 932672 words of memory out of 5000000
- 32907 multiletter control sequences out of 15000+600000
+ 18051 strings out of 482555
+ 301012 string characters out of 5952145
+ 938672 words of memory out of 5000000
+ 33057 multiletter control sequences out of 15000+600000
  539521 words of font info for 49 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,14n,47p,940b,1970s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,15n,47p,940b,1970s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texl
@@ -958,10 +1253,10 @@ ts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on submission.pdf (17 pages, 490796 bytes).
+Output written on submission.pdf (22 pages, 1207879 bytes).
 PDF statistics:
- 678 PDF objects out of 1000 (max. 8388607)
- 616 compressed objects within 7 object streams
- 276 named destinations out of 1000 (max. 500000)
- 157 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 843 PDF objects out of 1000 (max. 8388607)
+ 750 compressed objects within 8 object streams
+ 366 named destinations out of 1000 (max. 500000)
+ 277 words of extra memory for PDF output out of 10000 (max. 10000000)
 

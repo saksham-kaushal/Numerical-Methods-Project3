@@ -503,6 +503,8 @@
 		% ------------------------------- Introduction --------------------------------------
 
 		\section{Introduction} \label{3:introduction}
+		
+		Hypervelocity stars are obtained when a binary interacts tidally with a black hole. Depending on several factors, one or both stars of a binary may be ejected at extremely high velocities of the order of several thousand kilometres per second. Although another possible phenomena that might result in ejection of hypervelocity stars from a binary when one star goes supernova has been highlighted in many recent texts, this shall not be the topic of study of this problem. Here, the ejection of hypervelocity stars from binary on close encounter with a black hole and its dependence on several parameters like penetration factor, orientation of rotation, masses of stars and black hole, etc are studied.
 
 		% -------------------------------- Methods, Results ----------------------------------
 		
@@ -740,7 +742,9 @@
 						\label{eq:3-initial_time}
 					\end{equation}
 				
-					This gives us a complete set of initial conditions that can be used for simulation -- initial time, initial positions and initial velocities. These relations can be used in the Matlab file \emph{initialc.m} given in code \ref{code:3.initialc}, to define the initial conditions. To summarize,
+					This gives us a complete set of initial conditions that can be used for simulation -- initial time, initial positions and initial velocities. These relations can be used in the Matlab file \emph{initialc.m} given in code \ref{code:3.initialc}, to define the initial conditions. \\
+\newpage					
+					To summarize,
 					\begin{itemize}
 						\item The dimensionless values of masses (equation set \ref{eq:3-dimensionless_masses}) and \(D=3\) (equation \ref{eq:3-d}) are initialized in the beginning of file \emph{HVS.m}.
 						\item In file \emph{initialc.m}, shown in code \ref{code:3.initialc}, values of tidal radius, \(R_t\) (equation \ref{eq:3-tidal_radius}) and initial distance between binary and black hole, \(R_0\) (equation \ref{eq:3-r0_rt}) are defined in lines 1 and 2.
@@ -815,7 +819,7 @@
 					\subitem \textbf{Methods  --}
 					Using all the same programs used in parts (a)--(c), the value of \(D\) is updated to a new value of \(0.1\) in Matlab code \emph{HVS.m}. The plotting of data generated in \emph{out} file is also done using the same codes. 
 					
-					\begin{figure}
+					\begin{figure} [h]
 						\begin{subfigure} {.5\columnwidth}
 							\includegraphics[width=\columnwidth]{../plots/3d_orbitsdisruption_equalaxes.png}
 							\caption{Orbits of two stars in a binary star system in the black hole rest frame. Note that the binary separation increases over time after tidal interaction with black hole.}
@@ -869,26 +873,149 @@
 					\end{equation}
 				
 					\subitem \textbf{Results --}
-					Numerical values obtained from the simulation settle at an eventual dimensionless energy of \(E_s \approx 16.2244\) for the secondary star. Substituting non-dimensionless values in equation \ref{eq:3-secondary_velocity_infty}, we get,
+					Numerical values obtained from the simulation give an eventual dimensionless energy of \(\tilde{E}_s \approx 16.2244\) for the secondary star. Substituting non-dimensionless values in equation \ref{eq:3-secondary_velocity_infty}, we get,
 					\begin{equation}
 						\begin{gathered}
 							\begin{aligned}
-								v_s &= \sqrt{\frac{2 E_s G m^2}{a m_s}} \\
-								&= \sqrt{\frac{2 \times 16.2244 \times (1.67\times 10^{-11}) \times (4M_\odot)^2_{}}{(7\times R_\odot)\times(0.8 \times M_\odot)}}\\
-								&\approx 2103 \text{ km/s}.
+								v_s &= \sqrt{\frac{2 \tilde{E}_s G m^2}{m_s a}} \\
+								&= \sqrt{\frac{2 \times 16.2244 \times (6.67\times 10^{-11}) \times (4M_\odot)^2_{}}{(7\times R_\odot)\times(0.8 \times M_\odot)}} \\
+								&= \sqrt{\frac{618.38 \times 10^{-11} M_\odot}{R_\odot}} \\
+								&\approx 4204 \text{ km/s}.
 							\end{aligned}
 						\end{gathered}
+						\label{eq:3-velocity_at_inf}
 					\end{equation}
-					Thus, for the secondary star, detached from the binary, we obtain a velocity of approximately 2103 km/s at a distance \(r=\infty\). 
+					Thus, for the secondary star, detached from the binary, we obtain a velocity of approximately 4204 km/s at a distance \(r=\infty\). 
 					
+				\item
+				
+				\begin{figure} [h]
+					\lstinputlisting[caption=HVS.m - Program to perform simulation for different values of \(D\),label=code:3f.hvs , 
+									firstline=5, firstnumber=5] {../problem3f/HVS.m}
+				\end{figure}
+				
+				\begin{figure} [h]
+					\begin{subfigure} {.45\linewidth}
+						\lstinputlisting[caption=initialc.m - Initial velocities for clockwise rotating binaries., label=code:3f.initialc_retrograde , 
+										firstline=16, firstnumber=16,
+										lastline=19] {../problem3f/initialc_retrograde.m}
+					\end{subfigure} %
+					\hfill
+					\begin{subfigure} {.45\linewidth}
+						\lstinputlisting[caption=initialc.m - Initial velocities for counter-clockwise rotating binaries., label=code:3f.initialc_prograde , 
+										firstline=16, firstnumber=16,
+										lastline=19] {../problem3f/initialc_prograde.m}
+					\end{subfigure}
+				\end{figure}
+			
+				\begin{figure} [h]
+					\lstinputlisting[caption=script4.m - Program to collectively plot orbital trajectories for multiple data files in a directory. The commented lines 29--34 can be used to plot binary energy evolution instead., label=code:3f.script4 ,
+									lastline=43] {../problem3f/script4.m}
+				\end{figure}
+				
+				\subitem \textbf{Methods --}
+				To answer whether the orientation of binary rotation affects the outcomes of our simulation, the orbital trajectories and energies of clockwise and counter-clockwise rotating binaries are probed. These simulations are performed for values of \(D =\) 1.0, 0.5, 0.1, 0.025, 0.0125 and 0.01. Code \ref{code:3f.hvs} shows the program to perform simulation similar to one performed in previous section for different values of \(D\) iteratively.
+				
+				The initial conditions for clockwise and counter-clockwise rotating binaries differ in their directions of initial velocities. Codes \ref{code:3f.initialc_retrograde} and \ref{code:3f.initialc_prograde} can be compared to mark the differences in initial velocities of the two types of binaries. Rest of the code is similar to code \ref{code:3.initialc}.
+				
+				Once a collection of output data files for different values of \(D\) for each type of binary is obtained, codes \ref{code:3.script4a} and \ref{code:3.script4c} can be used to plot orbits and energy evolution for each file. A slightly efficient program to plot and save multiple figures at once is given in code \ref{code:3f.script4}.
+				
+				\begin{figure} [h]
+					\centering
+					\begin{subfigure} {.425\linewidth}
+						\includegraphics[width=\linewidth, height =.55\linewidth] {../plots/3f/retrograde_orbits/6.png}\\
+						\includegraphics[width=\linewidth, height =.55\linewidth] {../plots/3f/retrograde_orbits/5.png}\\
+						\includegraphics[width=\linewidth, height =.55\linewidth] {../plots/3f/retrograde_orbits/4.png}\\
+						\includegraphics[width=\linewidth, height =.55\linewidth] {../plots/3f/retrograde_orbits/3.png}\\
+						\includegraphics[width=\linewidth, height =.55\linewidth] {../plots/3f/retrograde_orbits/2.png}\\
+						\includegraphics[width=\linewidth, height =.55\linewidth] {../plots/3f/retrograde_orbits/1.png}
+					\end{subfigure} %
+					\hspace{1cm}
+					\begin{subfigure} {.425\linewidth}
+						\includegraphics[width=\linewidth, height =.55\linewidth] {../plots/3f/prograde_orbits/6.png}\\
+						\includegraphics[width=\linewidth, height =.55\linewidth] {../plots/3f/prograde_orbits/5.png}\\
+						\includegraphics[width=\linewidth, height =.55\linewidth] {../plots/3f/prograde_orbits/4.png}\\
+						\includegraphics[width=\linewidth, height =.55\linewidth] {../plots/3f/prograde_orbits/3.png}\\
+						\includegraphics[width=\linewidth, height =.55\linewidth] {../plots/3f/prograde_orbits/2.png}\\
+						\includegraphics[width=\linewidth, height =.55\linewidth] {../plots/3f/prograde_orbits/1.png}
+					\end{subfigure}
+					\caption{A comparison of trajectories of clockwise (left) and counter-clockwise (right) binaries for different values of penetration factor \(D\) = 1.0, 0.5, 0.1, 0.025, 0.0125 and 0.01, for the cases of tidal breakups of binaries. Some plots are zoomed in for better visualization.}
+					\label{fig:3f-orbits_pro_retro}
+				\end{figure}
+			
+				\begin{figure} [h]
+					\centering
+					\begin{subfigure} {.425\linewidth}
+						\includegraphics[width=\linewidth, height =.55\linewidth] {../plots/3f/retrograde_energies/6.png}\\
+						\vspace{1.5mm}
+						\includegraphics[width=\linewidth, height =.55\linewidth] {../plots/3f/retrograde_energies/5.png}\\
+						\vspace{1.5mm}
+						\includegraphics[width=\linewidth, height =.55\linewidth] {../plots/3f/retrograde_energies/4.png}\\
+						\vspace{1.5mm}
+						\includegraphics[width=\linewidth, height =.55\linewidth] {../plots/3f/retrograde_energies/3.png}\\
+						\vspace{1.5mm}
+						\includegraphics[width=\linewidth, height =.55\linewidth] {../plots/3f/retrograde_energies/2.png}\\
+						\vspace{1.5mm}
+						\includegraphics[width=\linewidth, height =.55\linewidth] {../plots/3f/retrograde_energies/1.png}
+					\end{subfigure} %
+					\hspace{1.7cm}
+					\begin{subfigure} {.425\linewidth}
+						\includegraphics[width=\linewidth, height =.55\linewidth] {../plots/3f/prograde_energies/6.png}\\
+						\vspace{1.5mm}
+						\includegraphics[width=\linewidth, height =.55\linewidth] {../plots/3f/prograde_energies/5.png}\\
+						\vspace{1.5mm}
+						\includegraphics[width=\linewidth, height =.55\linewidth] {../plots/3f/prograde_energies/4.png}\\
+						\vspace{1.5mm}
+						\includegraphics[width=\linewidth, height =.55\linewidth] {../plots/3f/prograde_energies/3.png}\\
+						\vspace{1.5mm}
+						\includegraphics[width=\linewidth, height =.55\linewidth] {../plots/3f/prograde_energies/2.png}\\
+						\vspace{1.5mm}
+						\includegraphics[width=\linewidth, height =.55\linewidth] {../plots/3f/prograde_energies/1.png}
+					\end{subfigure}
+					\caption{A comparison of evolution of energies of clockwise (left) and counter-clockwise (right) binaries for different values of penetration factor \(D\) = 1.0, 0.5, 0.1, 0.025, 0.0125 and 0.01, for the cases of tidal breakups of binaries. These energies correspond to orbits shown in figure \ref{fig:3f-orbits_pro_retro}.}
+					\label{fig:3f-energies_pro_retro}
+				\end{figure}
+				
+				\begin{table}
+					\centering
+					\begin{tabular} {l r r}
+						\toprule
+						\textbf{D} & \textbf{Energies (counter-clockwise)} & \textbf{Energies (clockwise)} \\
+						\midrule
+						1.0 & (-25.2675, 25.1855) & (-0.0890, -0.1091) \\
+						0.5 & (-23.4682, 23.3859) & (9.6326, -9.9671) \\
+						0.1 & (-16.3085, 16.2244) & (14.6806, -14.7687) \\
+						0.025 & (-39.1484, 12.5554) & (-8.3239, -18.3726) \\
+						0.0125 & (\(7.4 \times 10^6\) ,\(-4.33 \times 10^2\)) &  (\(6.85 \times 10^5\),\(-4.84 \times 10^2\)) \\
+						0.01 & (\(2.79 \times 10^6\),\(1.65 \times 10^5\)) & (\(7.36 \times 10^7\)  ,\(3.52 \times 10^6\)) \\
+						\bottomrule
+					\end{tabular}
+					\caption{Final energies of two stars (primary, secondary) in the simulations of binaries for different values of penetration factor, \(D\).}
+					\label{table:3f-final_energies_d}
+				\end{table}
+				
+				\subitem \textbf{Results --}
+				The orbital trajectories obtained for different values of \(D\), for clockwise and counter-clockwise rotating binaries is shown in figure \ref{fig:3f-orbits_pro_retro}. Corresponding binary energy evolutions are shown in figure \ref{fig:3f-energies_pro_retro}. The final value of energies of primary and secondary stars is enlisted in table \ref{table:3f-final_energies_d}
+				
+				\subitem \textbf{Discussions --}
+				Figure \ref{fig:3f-orbits_pro_retro} clearly demonstrates that clockwise rotating binaries are more stable to tidal disruption than counter-clockwise rotating binaries. This can be seen most prominently for cases \(D=1.0\text{ -- }0.1\).
+				In the energy evolution plots of figure \ref{fig:3f-energies_pro_retro}, these effects are most pronounced for \(D=1.0\text{ and }0.5\).
+				
+				The extreme case tidal disruptions are essentially similar for both cases with both stars getting ejected, as seen for \(D=0.01\). One another possibility for such close interactions is the complete disruption and \emph{swallow up} of the binary by the super massive black hole. On the other hand, in somewhat less extreme cases, such as for \(D=0.0125\), one of the stars is captured in highly eccentric orbit while the other one is ejected at extremely high speed.
+				
+				For the case of \(D=0.1\) considered in previous section in equation \ref{eq:3-velocity_at_inf}, if we consider the final energy obtained in table \ref{table:3f-final_energies_d}, the value of velocity at \(r=\infty\) for clockwise rotating binary turns out to approximately 3998 km/s instead of approximately 4200 km/s obtained for counter-clockwise rotating binary.
+				
+				From these observations, it can be safely concluded that orientation of rotation of binary has a profound impact on evolution of the system in the vicinity of black hole.
+				
 					
 			\end{enumerate}
 
 
 		% -------------------------------- Conclusions --------------------------------------
 
+		\clearpage
 		\section{Conclusions} \label{3:conclusions}
-		Binary star systems around super massive black holes get tidally disrupted in case the distance of closest approach is less than some threshold value. If the distance of closest approach is less than that value, one star of the binary get more strongly bound in a tighter lower energy orbit while the other one flies off in a higher energy trajectory. This phenomenon results in occurrence of hyper velocity stars. In extreme cases of very close approaches, the stars may get tidally destroyed by the black hole's gravity, thereby becoming sources of transient tidal disruption flares.
+		Binary star systems around super massive black holes get tidally disrupted in case the distance of closest approach is less than some threshold value. If the distance of closest approach is less than that value, one star of the binary get more strongly bound in a tighter lower energy orbit while the other one flies off in a higher energy trajectory. This phenomenon results in occurrence of hyper velocity stars. In extreme cases of very close approaches, the stars may get tidally destroyed by the black hole's gravity, thereby becoming sources of observable transient tidal disruption flares.
 		
 
 \end{document}

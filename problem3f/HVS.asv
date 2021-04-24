@@ -9,12 +9,12 @@ Ns    = 10000;    % sampling
 mb    = 1.e6 ;     % BH mass in units of the binary mass m
 mp    = 0.8 ;     % primary star mass in units of m
 ms    = 0.2 ;     % secondary star mass in units of m
-for D=[0.1 0.0]
+for D=[1 ]
 	[t, x] = initialc(D,mb,mp,ms); % Define the initial values of t and x. 
 	tmax   = -t;
 	tprint =  t;
 	dtp    =  (tmax-t)/Ns;
-	filename = sprintf('out_%f',D);
+	filename = sprintf('%.4f',D);
 	while t < tmax
 	     if  t >= tprint
 	        [Ep,Es] = energy(x,mb,mp,ms);
