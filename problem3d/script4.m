@@ -9,20 +9,20 @@ Ep=out(:,6); % the energy of the primary star
 Es=out(:,7); % the energy of the secondary star
 
 
-% plot(xp,yp,'DisplayName','Primary');
-% hold on;
-% plot(xs,ys,'DisplayName','Secondary');
-% hold on;
-% plot(0,0,'o','MarkerSize',5.5, 'MarkerFaceColor', 'black','DisplayName','Black hole') 
-% axis equal;
-% xlabel('x','FontSize',15);
-% ylabel('y','FontSize',15);
-% legend;
+plot(xp,yp,'DisplayName','Primary');
+hold on;
+plot(xs,ys,'DisplayName','Secondary');
+hold on;
+plot(0,0,'o','MarkerSize',5.5, 'MarkerFaceColor', 'black','DisplayName','Black hole') 
+axis equal;
+xlabel('x','FontSize',15);
+ylabel('y','FontSize',15);
+legend;
 
-% plot(xs-xp,ys-yp);
-% axis equal;
-% xlabel('x','FontSize',15);
-% ylabel('y','FontSize',15);
+plot(xs-xp,ys-yp);
+axis equal;
+xlabel('x','FontSize',15);
+ylabel('y','FontSize',15);
 
 plot(t,Ep,'DisplayName','Primary');
 hold on;

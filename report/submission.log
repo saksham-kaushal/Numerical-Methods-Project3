@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.14)  23 APR 2021 02:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.14)  24 APR 2021 10:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -755,193 +755,213 @@ nput line 117.
  (../problem1/prob1aa.m
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1.
-)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[2 <../plots/1aa_randomwalk.png (PNG copy)> <../plots/1ab_randomwalk.png (PNG c
-opy)> <../plots/1ac_hist_randomwalk.png (PNG copy)> <../plots/1ad_hist_randomwa
-lk.png (PNG copy)>] (../problem1/prob1ab.m) (../problem1/prob1ac.m)
+) [2 <../plots/1aa_randomwalk.png (PNG copy)> <../plots/1ab_randomwalk.png (PNG
+ copy)> <../plots/1ac_hist_randomwalk.png (PNG copy)> <../plots/1ad_hist_random
+walk.png (PNG copy)>]
+(../problem1/prob1ab.m) (../problem1/prob1ac.m)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [3] (../problem1/prob1ad.m
 consecutive:
-) [4] [5]pdfTeX warning (ext4): destination with the same identifier (name{sect
-ion.1}) has been already used, duplicate ignored
+) [4]pdfTeX warning (ext4): destination with the same identifier (name{section.
+1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.243 		\section{Introduction}
+l.244 		\section{Introduction}
                                \label{2:introduction}pdfTeX warning (ext4): des
 tination with the same identifier (name{section.2}) has been already used, dupl
 icate ignored
 <to be read again> 
                    \relax 
-l.247 		\section{Methods, Results and Discussions}
-                                                   [6
-
-] [7pdfTeX warning (ext4): destination with the same identifier (name{equation.
-2.18}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.401 				
-          pdfTeX warning (ext4): destination with the same identifier (name{equ
-ation.2.21}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.401 				
-          ] (../problem2/binary.m
+l.249 		\section{Methods, Results and Discussions}
+                                                   [5] [6]
+(../problem2/binary.m
 consecutive:
 )
-<../plots/2c_orbits.png, id=273, 606.76688pt x 545.03625pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../plots/2c_orbits.png, id=261, 606.76688pt x 545.03625pt>
 File: ../plots/2c_orbits.png Graphic file (type png)
 <use ../plots/2c_orbits.png>
-Package pdftex.def Info: ../plots/2c_orbits.png  used on input line 412.
+Package pdftex.def Info: ../plots/2c_orbits.png  used on input line 414.
 (pdftex.def)             Requested size: 215.1625pt x 193.27715pt.
-<../plots/2d_energies.png, id=274, 436.63126pt x 309.40594pt>
+<../plots/2d_energies.png, id=262, 436.63126pt x 309.40594pt>
 File: ../plots/2d_energies.png Graphic file (type png)
 <use ../plots/2d_energies.png>
-Package pdftex.def Info: ../plots/2d_energies.png  used on input line 418.
+Package pdftex.def Info: ../plots/2d_energies.png  used on input line 420.
 (pdftex.def)             Requested size: 219.6897pt x 155.67514pt.
- [8 <../plots/2c_orbits.png (PNG copy)> <../plots/2d_energies.png (PNG copy)>] 
-(../problem2/energyplot.m
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7pdfTeX warning (ext4): destination with the same identifier (name{equation.2.
+18}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.434 				\subitem
+                   \textbf{Results  --}pdfTeX warning (ext4): destination with 
+the same identifier (name{equation.2.21}) has been already used, duplicate igno
+red
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.434 				\subitem
+                   \textbf{Results  --}] [8 <../plots/2c_orbits.png (PNG copy)>
+ <../plots/2d_energies.png (PNG copy)>] (../problem2/energyplot.m
 consecutive:
 )pdfTeX warning (ext4): destination with the same identifier (name{section.3}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.491 		\section{Conclusions}
-                              \label{2:conclusions} [9]pdfTeX warning (ext4): d
-estination with the same identifier (name{section.1}) has been already used, du
-plicate ignored
+l.493 		\section{Conclusions}
+                              \label{2:conclusions}pdfTeX warning (ext4): desti
+nation with the same identifier (name{section.1}) has been already used, duplic
+ate ignored
 <to be read again> 
                    \relax 
-l.502 		\section{Introduction}
+l.505 		\section{Introduction}
                                \label{3:introduction}pdfTeX warning (ext4): des
 tination with the same identifier (name{section.2}) has been already used, dupl
 icate ignored
 <to be read again> 
                    \relax 
-l.506 		\section{Methods, Results and Discussions}
+l.509 		\section{Methods, Results and Discussions}
                                                   
-<../plots/3a_orbits_equalaxes.png, id=338, 429.10312pt x 310.91156pt>
+<../plots/3a_orbits_equalaxes.png, id=312, 429.10312pt x 310.91156pt>
 File: ../plots/3a_orbits_equalaxes.png Graphic file (type png)
 <use ../plots/3a_orbits_equalaxes.png>
 Package pdftex.def Info: ../plots/3a_orbits_equalaxes.png  used on input line 5
-11.
+14.
 (pdftex.def)             Requested size: 226.48395pt x 164.10391pt.
-<../plots/3b_secondaryorbit.png, id=339, 429.10312pt x 310.91156pt>
+<../plots/3b_secondaryorbit.png, id=313, 429.10312pt x 310.91156pt>
 File: ../plots/3b_secondaryorbit.png Graphic file (type png)
 <use ../plots/3b_secondaryorbit.png>
-Package pdftex.def Info: ../plots/3b_secondaryorbit.png  used on input line 517
+Package pdftex.def Info: ../plots/3b_secondaryorbit.png  used on input line 520
 .
 (pdftex.def)             Requested size: 226.48395pt x 164.10391pt.
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 510--521
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 513--524
 []$[]$  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 510--521
+Underfull \hbox (badness 10000) in paragraph at lines 513--524
 
  []
 
-<../plots/3c_energy.png, id=340, 421.575pt x 316.18124pt>
+<../plots/3c_energy.png, id=314, 429.10312pt x 310.91156pt>
 File: ../plots/3c_energy.png Graphic file (type png)
 <use ../plots/3c_energy.png>
-Package pdftex.def Info: ../plots/3c_energy.png  used on input line 524.
-(pdftex.def)             Requested size: 226.48395pt x 169.86691pt.
-<../plots/3d_orbitsdisruption_equalaxes.png, id=341, 429.10312pt x 310.91156pt>
+Package pdftex.def Info: ../plots/3c_energy.png  used on input line 527.
+(pdftex.def)             Requested size: 226.48395pt x 164.10391pt.
+[9] (../problem3d/f.m)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10 <../plots/3a_orbits_equalaxes.png (PNG copy)> <../plots/3b_secondaryorbit.p
+ng (PNG copy)> <../plots/3c_energy.png (PNG copy)>] (../problem3d/initialc.m
+consecutive:
+) [11] [12pdfTeX warning (ext4): destination with the same identifier (name{equ
+ation.2.41}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.688 					\end{equation}
+                         ] [13] (../problem3d/script4.m
+consecutive:
+) (../problem3d/script4.m
+consecutive:
+) (../problem3d/script4.m
+consecutive:
+) [14]
+<../plots/3d_orbitsdisruption_equalaxes.png, id=512, 429.10312pt x 310.91156pt>
 
 File: ../plots/3d_orbitsdisruption_equalaxes.png Graphic file (type png)
 <use ../plots/3d_orbitsdisruption_equalaxes.png>
 Package pdftex.def Info: ../plots/3d_orbitsdisruption_equalaxes.png  used on in
-put line 534.
+put line 820.
 (pdftex.def)             Requested size: 226.48395pt x 164.10391pt.
-<../plots/3d_secondaryorbitdisruption_equalaxes.png, id=342, 421.575pt x 316.18
+<../plots/3d_secondaryorbitdisruption_equalaxes.png, id=513, 421.575pt x 316.18
 124pt>
 File: ../plots/3d_secondaryorbitdisruption_equalaxes.png Graphic file (type png
 )
 <use ../plots/3d_secondaryorbitdisruption_equalaxes.png>
 Package pdftex.def Info: ../plots/3d_secondaryorbitdisruption_equalaxes.png  us
-ed on input line 540.
+ed on input line 826.
 (pdftex.def)             Requested size: 226.48395pt x 169.86691pt.
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 533--544
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 819--830
 []$[]$  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 533--544
+Underfull \hbox (badness 10000) in paragraph at lines 819--830
 
  []
 
-<../plots/3d_energy.png, id=343, 421.575pt x 316.18124pt>
+<../plots/3d_energy.png, id=514, 429.10312pt x 310.91156pt>
 File: ../plots/3d_energy.png Graphic file (type png)
 <use ../plots/3d_energy.png>
-Package pdftex.def Info: ../plots/3d_energy.png  used on input line 547.
-(pdftex.def)             Requested size: 226.48395pt x 169.86691pt.
-(../problem3d/initialc.m
-consecutive:
-[10
-
- <../plots/3a_orbits_equalaxes.png (PNG copy)> <../plots/3b_secondaryorbit.png 
-(PNG copy)> <../plots/3c_energy.png (PNG copy)>] [11 <../plots/3d_orbitsdisrupt
-ion_equalaxes.png (PNG copy)> <../plots/3d_secondaryorbitdisruption_equalaxes.p
-ng (PNG copy)> <../plots/3d_energy.png (PNG copy)>]) (../problem3d/f.m)pdfTeX w
-arning (ext4): destination with the same identifier (name{section.3}) has been 
-already used, duplicate ignored
+Package pdftex.def Info: ../plots/3d_energy.png  used on input line 833.
+(pdftex.def)             Requested size: 226.48395pt x 164.10391pt.
+[15 <../plots/3d_orbitsdisruption_equalaxes.png (PNG copy)> <../plots/3d_second
+aryorbitdisruption_equalaxes.png (PNG copy)> <../plots/3d_energy.png (PNG copy)
+>]pdfTeX warning (ext4): destination with the same identifier (name{section.3})
+ has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.616 		\section{Conclusions}
+l.890 		\section{Conclusions}
                               \label{3:conclusions}
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 620.
- [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 620.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 894.
+ [16]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 894.
  (./submission.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 620.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 620.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 894.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 894.
 Package rerunfilecheck Info: File `submission.out' has not changed.
 (rerunfilecheck)             Checksum: 931835D69C620B610E145167454B5359;703.
 Package logreq Info: Writing requests to 'submission.run.xml'.
 \openout1 = `submission.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 620.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 894.
  ) 
 Here is how much of TeX's memory you used:
- 17684 strings out of 482555
- 292569 string characters out of 5952145
+ 17789 strings out of 482555
+ 294053 string characters out of 5952145
  932672 words of memory out of 5000000
- 32870 multiletter control sequences out of 15000+600000
- 538837 words of font info for 47 fonts, out of 8000000 for 9000
+ 32907 multiletter control sequences out of 15000+600000
+ 539521 words of font info for 49 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,12n,47p,940b,1970s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmtt8.pfb>
-Output written on submission.pdf (13 pages, 436541 bytes).
+ 41i,14n,47p,940b,1970s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on submission.pdf (17 pages, 490796 bytes).
 PDF statistics:
- 522 PDF objects out of 1000 (max. 8388607)
- 469 compressed objects within 5 object streams
- 217 named destinations out of 1000 (max. 500000)
+ 678 PDF objects out of 1000 (max. 8388607)
+ 616 compressed objects within 7 object streams
+ 276 named destinations out of 1000 (max. 500000)
  157 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -15,8 +15,8 @@ xcmydot = Rdot*sin(f0) + R0*Fdot*cos(f0)	;	% d(xcmy)/dt (using eq 41b)
 phi 	= pi/2								;	% binary phase
 rpxdot 	= -ms*sin(phi+pi)					;	% d(rpx)/dt (using problem 2)
 rpydot 	= ms*cos(phi+pi)					;	% d(rpy)/dt (using problem 2)
-rsxdot 	= -mp*sin(phi)						;	% d(rsx)/dt (using problem 2)
-rsydot 	= mp*cos(phi)						;	% d(rsy)/dt (using problem 2)
+rsxdot 	= mp*cos(phi)						;	% d(rsx)/dt (using problem 2)
+rsydot 	= -mp*sin(phi)						;	% d(rsy)/dt (using problem 2)
 
 t 		= (sqrt(2)/3) * (D^(3/2)) * ...
 		  (tan(f0/2))*(3+(tan(f0/2))^2)		;	% initial time t0

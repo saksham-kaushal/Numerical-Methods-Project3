@@ -8,18 +8,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Conclusions}{5}{section.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{II\hspace {1em}Circular Binary}{6}{part.2}%
+\contentsline {part}{II\hspace {1em}Circular Binary}{5}{part.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Introduction}{6}{section.1}%
+\contentsline {section}{\numberline {1}Introduction}{5}{section.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}Methods, Results and Discussions}{6}{section.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Conclusions}{9}{section.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{III\hspace {1em}Hypervelocity Stars}{10}{part.3}%
+\contentsline {part}{III\hspace {1em}Hypervelocity Stars}{9}{part.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Introduction}{10}{section.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}Methods, Results and Discussions}{10}{section.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Conclusions}{12}{section.3}%
+\contentsline {section}{\numberline {3}Conclusions}{16}{section.3}%

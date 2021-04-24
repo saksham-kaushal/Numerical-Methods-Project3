@@ -71,7 +71,7 @@
 		
 		\section{Introduction} \label{1:introduction}
 		
-		A random walk is a process that describes the path of an object in a two dimensional plane consisting of successive random steps. In physics, these processes play an important role in study of polymers, Brownian motion, diffusion, etc. 
+		A two dimensional random walk is a process that describes the path of an object in a two dimensional plane consisting of successive random steps. In physics, these processes play an important role in study of polymers, Brownian motion, diffusion, etc. In this problem, such a random walk is visualized. This problem also investigates the number distribution of particles with distance, after a given number of steps in random walks are executed.
 		
 		% -------------------------------- Methods, Results ---------------------------------
 		
@@ -229,18 +229,20 @@
 		
 		\section{Conclusions} \label{1:conclusions}
 		
+		For a large sample of random walk data, the number distribution of particles with eventual distance is given by equation \ref{eq:number_distribution}. The theoretical estimates and observations made using numerical simulation seem to agree well. One example of an approximate random walk is the motion of a photon through the layers of Sun. This causes the photon to take several years (of the order of millions) to reach the surface of the Sun before eventually escaping.  
 		
 
 	
 	% ========================= Problem 2 ===================================================
 	
-	\clearpage
+%	\clearpage
 	\setcounter{section}{0}
 	\part{Circular Binary} \label{Problem2}
 	
 		% ------------------------------- Introduction --------------------------------------
 
 		\section{Introduction} \label{2:introduction}
+		A system of two stars rotating in circular orbits around their common centre of mass is called a \emph{circular binary}. The heavier star is called the primary star whereas the lighter one is called the secondary star. The orbital time period for both the stars is equal and therefore, primary star traverses a small orbit at slower velocity, while the orbit of the secondary star is larger which it traverses at a higher velocity. In most of the commonly encountered systems, evolutionary correlation between the two stars is extremely significant. Such a gravitationally bound system possesses a negative total energy.
 
 		% -------------------------------- Methods, Results ----------------------------------
 		
@@ -471,7 +473,7 @@
 				\end{equation}
 				
 				\begin{figure}
-					\lstinputlisting[caption=second code, label=code:2.2,
+					\lstinputlisting[caption=energyplot.m - Program to plot the time evolution of analytically and numerically calculated energies of a circular binary system., label=code:2.2,
 					firstline=4]{../problem2/energyplot.m}
 				\end{figure}
 				
@@ -489,11 +491,12 @@
 		% -------------------------------- Conclusions --------------------------------------
 
 		\section{Conclusions} \label{2:conclusions}
+		Using fourth order Runge-Kutta method, first order ordinary differential equations are integrated to obtain values of positions and velocities of stars in a binary star system at every time step. The total energy of the bound system is constant and negative. 
 
 
 	% ========================= Problem 3 ===================================================
 	
-	\clearpage
+%	\clearpage
 	\setcounter{section}{0}
 	\part{Hypervelocity Stars} \label{Problem3}
 
@@ -509,48 +512,26 @@
 			\begin{figure} [h]
 				\begin{subfigure} {.5\columnwidth}
 					\includegraphics[width=\columnwidth]{../plots/3a_orbits_equalaxes.png}
-					\caption{3a}
+					\caption{Orbits of two stars in a binary star system in the black hole rest frame.}
 					\label{fig:3a}
 				\end{subfigure}
 				\hfill
 				\begin{subfigure} {.5\columnwidth}
 					\includegraphics[width=\columnwidth]{../plots/3b_secondaryorbit.png}
-					\caption{3b}
+					\caption{Orbit of secondary star in rest frame of primary star.}
 					\label{fig:3b}
 				\end{subfigure}\\
 				
 				\begin{subfigure} {\columnwidth}
 					\centering
 					\includegraphics[width=.5\columnwidth]{../plots/3c_energy.png}
-					\caption{3c}
+					\caption{Time evolution of dimensionless energies of the two stars in a binary star system.}
 					\label{fig:3c}
 				\end{subfigure}
-				\caption{Problem 3 - fig 1}
+				\caption{Plotted results for problems 3(a)--(c)}
 				\label{fig:3.1}
 			\end{figure}
 			
-			\begin{figure}
-				\begin{subfigure} {.5\columnwidth}
-					\includegraphics[width=\columnwidth]{../plots/3d_orbitsdisruption_equalaxes.png}
-					\caption{3da}
-					\label{fig:3da}
-				\end{subfigure}
-				\hfill
-				\begin{subfigure} {.5\columnwidth}
-					\includegraphics[width=\columnwidth]{../plots/3d_secondaryorbitdisruption_equalaxes.png}
-					\caption{3db}
-					\label{fig:3db}
-				\end{subfigure}\\
-				
-				\begin{subfigure} {\columnwidth}
-					\centering
-					\includegraphics[width=.5\columnwidth]{../plots/3d_energy.png}
-					\caption{3dc}
-					\label{fig:3dc}
-				\end{subfigure}
-				\caption{Problem 3 - fig 2}
-				\label{fig:3.2}
-			\end{figure}
 			
 			\begin{table}
 				\centering
@@ -560,22 +541,21 @@
 					\midrule
 					\(t^{}_{0}\) & \texttt{t} & -19.9555 & -15.1290 \\
 					\(x^{}_{p}\) & \texttt{x(1)}& -400.0000 & -980.0000 \\
-					\(y^{}_{p}\) & \texttt{x(2)} & -917.3151 & -199.7975 \\
+					\(y^{}_{p}\) & \texttt{x(2)} & -916.7151 & -199.1975 \\
 					\(v^{}_{px}\) & \texttt{x(3)} & 37.6166 & 44.6972 \\
 					\(v^{}_{py}\) & \texttt{x(4)} & 24.4949 & 4.4721 \\
 					\(x^{}_{s}\) & \texttt{x(5)} & -400.0000 & -980.0000 \\
-					\(y^{}_{s}\) & \texttt{x(6)} & -916.3151 & -198.7975 \\
+					\(y^{}_{s}\) & \texttt{x(6)} & -915.7151 & -198.1975 \\
 					\(v^{}_{sx}\) & \texttt{x(7)} & 36.6166 & 43.6972 \\
 					\(v^{}_{sy}\) & \texttt{x(8)} & 24.4949 & 4.4721 \\
 					\bottomrule
 				\end{tabular}
-				\caption{Table of variable values for two values of D}
+				\caption{Summary of initial values of various physical quantities in the simulation and their variable names. These values are enlisted for values \(D=3\) and \(D=0.1\).}
 				\label{table:3_dvalues}
 			\end{table}
 			
-			\lstinputlisting[caption=code 1, label=code:3.initialc,
-			firstline=5]{../problem3d/initialc.m}
-			\lstinputlisting[caption=code 2, label=code:3.f]{../problem3d/f.m}
+			
+			
 			
 			
 			\begin{enumerate} [label*=\textbf{(\alph*)}]
@@ -584,37 +564,331 @@
 	
 				\item
 					\subitem \textbf{Methods  --}
+					The function \texttt{dxdy} defined in Matlab code file \emph{f.m} is modified to include black hole gravity terms in lines 7,8,11 and 12 of code \ref{code:3.f}. These modifications are done in accordance with the equations,
+					\begin{equation}
+						\begin{gathered}
+							E_p = \frac{1}{2} m_p v_p^2 - \frac{G m_p M}{r_p} - \frac{G m_p m_s}{r_{ps}}, \\
+							E_s = \frac{1}{2} m_s v_s^2 - \frac{G m_s M}{r_s} - \frac{G m_p m_s}{r_{ps}},
+						\end{gathered}
+					\end{equation}
+					where, \(M\) is the mass of black hole and \(r_p\) and \(r_s\) are the distances from black hole to primary and secondary stars, respectively.
+					
+					\begin{figure} [h]
+						\lstinputlisting[caption=f.m - Function defining values of velocities and accelerations of the two stars along the two axes., label=code:3.f]{../problem3d/f.m}
+					\end{figure}
+					
+					In dimensionless units, the mass of black hole is given by,
+					\begin{equation}
+							\tilde{M} = \frac{M}{m_p+m_s} = \frac{M}{m}
+							\label{eq:3-blackhole_mass}
+					\end{equation}
+					 In the given scenario, \(m_p = 3.2 M_\odot\), \(m_s = 0.8 M_\odot\) and \(M = 4 \times 10^6 M_\odot\). This gives us \(m = 3.2+0.8 = 4 M_\odot\). Consequently, using equations \ref{eq:dimensionless_mass_pos} and \ref{eq:3-blackhole_mass}, dimensionless masses are given by,
+					 \begin{equation}
+					 	\begin{gathered}
+					 		\begin{aligned}
+					 			\tilde{m}_p &= 0.8 \\
+					 			\tilde{m}_s &= 0.2 \\
+					 			\tilde{M} &= 10^6
+					 		\end{aligned}
+					 	\end{gathered}
+				 		\label{eq:3-dimensionless_masses}
+					 \end{equation}
+					These values are assigned in the initial lines of the main code \emph{HVS.m} to variables \texttt{mp}, \texttt{ms} and \texttt{mb}, respectively.
+					
+					\begin{figure}
+						\lstinputlisting[caption=initialc.m - Initial conditions for the simulation., label=code:3.initialc,
+						firstline=5]{../problem3d/initialc.m}
+					\end{figure}
+					
+					Next, the initial conditions are specified in the file \emph{initialc.m}, shown in code \ref{code:3.initialc}. The initial position of primary star with respect to black hole is given by,
+					
+					\begin{equation}
+						x_p = X_{CM}^{} +r_p,
+						\label{eq:3-primary_position}
+					\end{equation}
+					where, \(X_{CM}\) is the position of of centre of mass of binary from black hole, and \(r_p\) is the position of primary star with respect to centre of mass of binary. All these quantities are vectors and arrows have been dropped here (and later) for simplicity, and the approximation that centre of mass of the whole system lies within the black hole is assumed to be valid here, given that \(M \gg m_p,m_s\). 
+					
+					The value of \(X_{CM}^{}\) in equation \ref{eq:3-primary_position} is given by, 
+					\begin{equation}
+						X_{CM}^{} = (R \cos(f), R \sin(f)),
+						\label{eq:3-xcm}
+					\end{equation}
+					where,
+					\begin{equation}
+						R = \frac{2 R_p}{1+ \cos(f)}.
+						\label{eq:3-r}
+					\end{equation}
+					The angle \(f\), called \emph{true anomaly}, is the angle from point of closest approach and is a function of time. \(R_p\) is the \emph{periastron}, which is the distance of closest approach. The initial value of true anomaly is given as,
+					\begin{equation}
+						f_0 = - \cos^{-1} \left( \frac{D}{5} -1 \right),
+						\label{eq:3-true_anomaly} 
+					\end{equation}
+					where, 
+					\begin{equation}
+						D = \frac{R_p}{R_t}
+						\label{eq:3-d}
+					\end{equation}
+					
+					For a given phase angle \(\phi\), the value of \(r_p\) in equation \ref{eq:3-primary_position} is given by,
+					\begin{equation}
+						r_p = (m_s \cos(\phi+\pi), m_s \sin (\phi+\pi))
+						\label{eq:3-rp}
+					\end{equation}
+					
+					Using equations \ref{eq:3-primary_position}, \ref{eq:3-xcm} and \ref{eq:3-rp}, we obtain the coordinates of primary star as,
+					\begin{equation}
+						\begin{gathered}
+							x_{px} = R \cos(f) + m_s \cos(\phi+\pi) \\
+							x_{py} = R \sin(f) + m_s \sin(\phi+\pi)
+						\end{gathered}
+						\label{eq:3-primary_positions_xy}
+					\end{equation}
+					
+					Similarly, for secondary star,
+					\begin{equation}
+						x_s = X_{CM}^{} + r_s,
+						\label{eq:3-secondary_position}
+					\end{equation}
+					\begin{equation}
+						r_s = (m_p \cos(\phi), m_p \sin(\phi))
+						\label{eq:3-rs}
+					\end{equation}
+					Using equations \ref{eq:3-xcm}, \ref{eq:3-secondary_position} and \ref{eq:3-rs}, we obtain the coordinates of secondary star as,
+					\begin{equation}
+						\begin{gathered}
+							x_{sx} = R \cos(f) + m_p \cos(\phi) \\
+							x_{sy} = R \sin(f) + m_p \sin(\phi).
+						\end{gathered}
+					\end{equation}
+				
+					For the given initial conditions,
+					\begin{equation}
+						R_0 = 10 R_t,
+						\label{eq:3-r0_rt}
+					\end{equation}
+					where \(R_t\) is the \emph{tidal radius}, given by,
+					\begin{equation}
+						\nonumber R_t^{} = \left( \frac{M}{m} \right)^{\frac{1}{3}} a
+					\end{equation}
+					In dimensionless units, \textit{i.e.}, in units of \(a\), tidal radius is given by,
+					\begin{equation}
+						\tilde{R}_t = \left( \tilde{M} \right)^{\frac{1}{3}}.
+						\label{eq:3-tidal_radius}
+					\end{equation}
+					Therefore, from equations \ref{eq:3-r0_rt} and \ref{eq:3-tidal_radius},
+					\begin{equation}
+						\tilde{R}_0 = 10 M^{\frac{1}{3}}	
+						\label{eq:3-r0_m}
+					\end{equation}
+					
+					Velocity of primary star is given by differentiating equation \ref{eq:3-primary_position} with respect to time as,
+					\begin{equation}
+						v_p = \dot{x}_p = \dot{X}_{CM}^{} +\dot{r}_p.
+						\label{eq:3-vp}
+					\end{equation}
+					Time derivative of \(X_{CM}^{}\) is given by differentiating equation \ref{eq:3-xcm} as,
+					\begin{equation}
+						\begin{gathered}
+							\begin{aligned}
+								\dot{X}_{CM}^{} &= \frac{d}{dt} (R \cos(f)), \frac{d}{dt} (R \sin(f)) \\
+								\Rightarrow \dot{X}_{CMx} &= \dot{R} \cos(f) - R \dot{f} \sin(f), \\
+								\dot{X}_{CMy} &= \dot{R} \sin(f) + R \dot{f} \cos(f)
+							\end{aligned}
+						\end{gathered}
+						\label{eq:3-vcm}
+					\end{equation}
+					Here, tilde has been dropped from dimensionless variables for simplicity and \(\dot{R}\) and \(\dot{f}\) are given as,
+					\begin{equation}
+						\dot{R} = \frac{M^{1/3}}{\sqrt{2D}} \sin(f),
+						\label{eq:3-rdot}
+					\end{equation}
+					\begin{equation}
+						\dot{f} = \frac{\sqrt{2}}{4} D^{-3/2} \left( 1+\cos(f) \right)^2 .
+						\label{eq:3-fdot}
+					\end{equation}
+					
+					The binary star system can be assumed to be in the similar initial conditions as the one considered in part \ref{Problem2} of this project, \textit{i.e.} a circular binary rotating counter-clockwise in x-y plane with stars initially located on x-axis (Changing the phase angle \(\phi\) updates this condition accordingly. For example, \(\phi = \pi/2\) moves the initial positions to lie on y-axis). This will give us the derivative of equation \ref{eq:3-rp}, \(\dot{r}_p\) as,
+					\begin{equation}
+						\begin{gathered}
+							\begin{aligned}
+								\dot{r}_{px} &= -m_s \sin(\phi + \pi), \\
+								\dot{r}_{py} &= m_s \cos(\phi + \pi).
+							\end{aligned}
+						\end{gathered} 
+						\label{eq:3-vp_binary}
+					\end{equation}
+					
+					Similarly, equation \ref{eq:3-vp} for secondary star translates to,
+					\begin{equation}
+						v_s = \dot{x}_s = \dot{X}_{CM}^{} + \dot{r}_s
+						\label{eq:3-vs}
+					\end{equation}
+					Value of \(X_{CM}^{}\) is given by equation set \ref{eq:3-xcm}, while the value of \(r_s\) can be computed for secondary star using the method similar to the one used for primary star for equation set \ref{eq:3-vp_binary}, adopted from part \ref{Problem2} of the project. Using equation \ref{eq:3-rs} this gives us,
+					\begin{equation}
+						\begin{gathered}
+							\begin{aligned}
+								\dot{r}_{sx} &= -m_p \sin(\phi), \\
+								\dot{r}_{sy} &= m_p \cos(\phi).
+							\end{aligned}
+						\end{gathered} 
+						\label{eq:3-vs_binary}
+					\end{equation}
+				
+					At \(t=0\), the binary passes through the periastron. This implies that the evolution of code needs to begin at time \(t<0\), which can be obtained as a function of initial true anomaly \(f_0\) discussed in equation \ref{eq:3-true_anomaly}. This gives us the initial time of 
+					\begin{equation}
+						t_0 = \frac{\sqrt{2}}{3} D^{3/2} \tan \left( \frac{f_0}{2} \right) \left( 3+ \tan^2 \left( \frac{f_0}{2} \right) \right) 
+						\label{eq:3-initial_time}
+					\end{equation}
+				
+					This gives us a complete set of initial conditions that can be used for simulation -- initial time, initial positions and initial velocities. These relations can be used in the Matlab file \emph{initialc.m} given in code \ref{code:3.initialc}, to define the initial conditions. To summarize,
+					\begin{itemize}
+						\item The dimensionless values of masses (equation set \ref{eq:3-dimensionless_masses}) and \(D=3\) (equation \ref{eq:3-d}) are initialized in the beginning of file \emph{HVS.m}.
+						\item In file \emph{initialc.m}, shown in code \ref{code:3.initialc}, values of tidal radius, \(R_t\) (equation \ref{eq:3-tidal_radius}) and initial distance between binary and black hole, \(R_0\) (equation \ref{eq:3-r0_rt}) are defined in lines 1 and 2.
+						\item The values of \(\dot{X}_{CM}^{}\) (velocity equation set \ref{eq:3-vcm}) along the two axes are defined in lines 8 and 9.
+						\item Calculating the values of \(\dot{X}_{CM}^{}\) requires values of true anomaly (\(f_0\)), time derivative of radial distance \(\dot{R}\) and time derivative of true anomaly \(\dot{f}\), given by equations \ref{eq:3-true_anomaly}, \ref{eq:3-rdot} and \ref{eq:3-fdot}, respectively. These values are defined in lines 3--6.
+						\item A phase angle \(\phi = \pi/2\) is assumes and initialized in line 11.
+						\item Initial time \(t_0\) is calculated using equation \ref{eq:3-initial_time} in line 17--18.
+						\item Initial positions of the two stars are computed in lines 19--20 and 23--24 using equation sets \ref{eq:3-rp} and \ref{eq:3-rs}.
+						\item The values of initial velocities derived in equations \ref{eq:3-vp} and \ref{eq:3-vs} as assigned in lines 21--22 and 25--26.
+						\item Values of velocities depend on velocity of centre of mass as well as velocity of each star in the binary. Velocity of centre of mass is already defined in lines 8--9, as mentioned above, while the velocities of each star along the two axes are defined in lines 12--15 using equation sets \ref{eq:3-vp_binary} and \ref{eq:3-vs_binary}.
+					\end{itemize}
+					
+					\begin{figure} [h]
+						\lstinputlisting[caption=script4.m - Code snippet to plot the trajectories of stars in black hole rest frame., label=code:3.script4a,
+										firstline=12, firstnumber=12,
+										lastline=20] {../problem3d/script4.m}
+					\end{figure}
+					
+					Using the above methods, the initial conditions are defined. Upon executing the code \emph{HVS.m}, a file named \emph{out} is created. The plotting of trajectories in black hole rest frame is done using Matlab code \emph{script4.m}, a snippet of which is shown in code \ref{code:3.script4a}.
+					
 					\subitem \textbf{Results  --}
+					The plot of obtained trajectories of the binary stars in the black hole rest frame is shown in figure \ref{fig:3a}. The numerically computed values of initial conditions are summarised in table \ref{table:3_dvalues}.
+					
 					\subitem \textbf{Discussions  --}
+					The trajectory of the centre of mass of binary appears to be parabolic. This can be confirmed if the energy of the binary turns out to be zero. Also, though the plot seems to show a single line of trajectory, on zooming in, the individual tracks of the two stars can be resolved. The structure and separation of binary does not seem to be affected by the interaction on close approach of the system at periastron.
 	
 			% ---------------------------------- (b) ---------------------------------------------
-	
+
 				\item
-					\subitem \textbf{Methods  --}
+					\begin{figure} [h]
+						\lstinputlisting[caption=script4.m - Code snippet to plot the trajectory of secondary star in the rest frame of primary mass., label=code:3.script4b,
+						firstline=22, firstnumber=22,
+						lastline=25] {../problem3d/script4.m}
+					\end{figure}
+				
+					\subitem \textbf{Methods  --} Using the output file \emph{out}, the trajectory of secondary star in units of dimensionless position in the comoving frame of primary star is plotted using the code snippet shown in code \ref{code:3.script4b}.
+					
 					\subitem \textbf{Results  --}
-					\subitem \textbf{Discussions  --}
+					The plot obtained is shown in figure \ref{fig:3b}.
+					
+%					\subitem \textbf{Discussions  --}
 	
 			% ---------------------------------- (c) ---------------------------------------------
 	
 				\item
+					\begin{figure} [h]
+						\lstinputlisting[caption=script4.m - Code snippet to plot evolution of energies of binary stars over time, label=code:3.script4c,
+						firstline=27, firstnumber=27,
+						lastline=32] {../problem3d/script4.m}
+					\end{figure}
+				
 					\subitem \textbf{Methods  --}
+					The energies of primary and secondary stars is given by,
+					\begin{equation}
+						\begin{gathered}
+							E_p = \frac{1}{2} m_p v_p^2 - \frac{G m_p M}{r_p} - \frac{G m_p m_s}{r_{ps}} \\
+							E_s = \frac{1}{2} m_s v_s^2 - \frac{G m_s M}{r_s} - \frac{G m_p m_s}{r_{ps}}
+						\end{gathered}
+					\label{eq:3-energies}
+					\end{equation}
+					The energies in dimensionless units computed using \emph{HVS.m} and \emph{energy.m} are imported from \emph{out} file and plotted using the code snippet shown in code \ref{code:3.script4c}. 
+					
 					\subitem \textbf{Results  --}
+					The plot of evolution of energies of primary and secondary stars is shown in figure \ref{fig:3c}.
+					
 					\subitem \textbf{Discussions  --}
+					The total dimensionless energy of the system remains constant and equal to zero over time, as can be observed from figure \ref{fig:3c}.
 	
 			% ---------------------------------- (d) ---------------------------------------------
 	
 				\item
 					\subitem \textbf{Methods  --}
-					\subitem \textbf{Results  --}
+					Using all the same programs used in parts (a)--(c), the value of \(D\) is updated to a new value of \(0.1\) in Matlab code \emph{HVS.m}. The plotting of data generated in \emph{out} file is also done using the same codes. 
+					
+					\begin{figure}
+						\begin{subfigure} {.5\columnwidth}
+							\includegraphics[width=\columnwidth]{../plots/3d_orbitsdisruption_equalaxes.png}
+							\caption{Orbits of two stars in a binary star system in the black hole rest frame. Note that the binary separation increases over time after tidal interaction with black hole.}
+							\label{fig:3da}
+						\end{subfigure}
+						\hfill
+						\begin{subfigure} {.5\columnwidth}
+							\includegraphics[width=\columnwidth]{../plots/3d_secondaryorbitdisruption_equalaxes.png}
+							\caption{Orbit of secondary star in rest frame of primary star. The stars are seen to depart away from each other at later times}
+							\label{fig:3db}
+						\end{subfigure}\\
+						
+						\begin{subfigure} {\columnwidth}
+							\centering
+							\includegraphics[width=.5\columnwidth]{../plots/3d_energy.png}
+							\caption{Time evolution of dimensionless energies of the two stars in a binary star system. The plot changes abruptly at \(t=0\), \textit{i.e.} after tidal interaction.}
+							\label{fig:3dc}
+						\end{subfigure}
+						\caption{Plotted results for problem 3(d).}
+						\label{fig:3.2}
+					\end{figure}
+					
+					\subitem \textbf{Results  --} 
+					The plots generated are shown in figure \ref{fig:3.2}. The trajectory in terms of dimensionless position of the two stars in black hole rest frame is shown in figure \ref{fig:3da}. The orbit of the secondary star in rest frame of primary star is shown in figure \ref{fig:3db}. The evolution of dimensionless energies of the two stars over time is shown in figure \ref{fig:3dc}. The values of initial parameters computed in the code are enlisted in table \ref{table:3_dvalues}.
+					
 					\subitem \textbf{Discussions  --}
-	
+					The trajectory of the centre of mass of binary still appears to be parabolic. The separation of the binary is affected in later times, after the tidal interaction with the black hole. The binary separates over time as seen in the upper left corner of figure \ref{fig:3da}. This break up of binary is essentially an effect of tidal interaction of binary with the black hole. Evidently, this becomes prominent as the binary passes very close to the super massive black hole, such as the one found in the centre of our galaxy.
+					
+					The star detaches from binary after the tidal interaction. This is seen in figure \ref{fig:3db}. In the rest frame of primary star, the secondary star is seen to initially encircle as the binary rotates, evident in lower central circular region of figure \ref{fig:3db}. After gravitational interaction,the secondary star begins to increasingly move away from primary star.
+					
+					The total energy of the binary, which is the sum of the energies of the two stars is conserved over time and is zero. After time \(t=0\), when the binary reaches the periastron, the energy of primary star becomes extremely negative, while the energy of the secondary star becomes extremely positive. This indicates that orbit of primary star become more bound to the black hole and vice versa. This suggests more strongly that deviations in orbits of stars of the binary are essentially due to gravitational interactions between binary and black hole, in case the point of approach is closer than some limiting value, decided by the value of \(D\). 
+					
+				\item
+					\subitem \textbf{Methods --}
+					From previous part, we know that the star ejected from the binary after tidal interaction is the secondary star. From equation \ref{eq:3-energies}, we can estimate the final velocity at \(r=\infty\) using the value of velocity obtained from our numerical results in \emph{out} file. At such large distances the following two approximations can be made safely,
+					\begin{equation}
+						\begin{gathered}
+							\frac{G m_s M}{r_s} \approx 0, \\
+							\frac{G m_p m_s}{r_{ps}} \approx 0 .
+						\end{gathered}
+					\end{equation}
+					This gives us,
+					\begin{equation}
+						\begin{gathered}
+							\begin{aligned}
+								E_s &\approx \frac{1}{2} m_s v_s^2 \\
+								\Rightarrow v_s &\approx \sqrt{\frac{2 E_s}{m_s}}
+							\end{aligned}
+						\end{gathered}
+						\label{eq:3-secondary_velocity_infty}
+					\end{equation}
+				
+					\subitem \textbf{Results --}
+					Numerical values obtained from the simulation settle at an eventual dimensionless energy of \(E_s \approx 16.2244\) for the secondary star. Substituting non-dimensionless values in equation \ref{eq:3-secondary_velocity_infty}, we get,
+					\begin{equation}
+						\begin{gathered}
+							\begin{aligned}
+								v_s &= \sqrt{\frac{2 E_s G m^2}{a m_s}} \\
+								&= \sqrt{\frac{2 \times 16.2244 \times (1.67\times 10^{-11}) \times (4M_\odot)^2_{}}{(7\times R_\odot)\times(0.8 \times M_\odot)}}\\
+								&\approx 2103 \text{ km/s}.
+							\end{aligned}
+						\end{gathered}
+					\end{equation}
+					Thus, for the secondary star, detached from the binary, we obtain a velocity of approximately 2103 km/s at a distance \(r=\infty\). 
+					
+					
 			\end{enumerate}
 
 
 		% -------------------------------- Conclusions --------------------------------------
 
 		\section{Conclusions} \label{3:conclusions}
-
-
+		Binary star systems around super massive black holes get tidally disrupted in case the distance of closest approach is less than some threshold value. If the distance of closest approach is less than that value, one star of the binary get more strongly bound in a tighter lower energy orbit while the other one flies off in a higher energy trajectory. This phenomenon results in occurrence of hyper velocity stars. In extreme cases of very close approaches, the stars may get tidally destroyed by the black hole's gravity, thereby becoming sources of transient tidal disruption flares.
+		
 
 \end{document}
