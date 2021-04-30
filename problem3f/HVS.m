@@ -1,7 +1,6 @@
 % The disruption of a binary by a massive BH
 % the main code
 % define mb, mp, ms. These are dimensionless masses. 
-
 clear             % clear all variables and functions from memory
 h     = 1.d-3;    % time-step size
 Ns    = 10000;    % sampling

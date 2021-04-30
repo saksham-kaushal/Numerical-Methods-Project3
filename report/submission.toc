@@ -8,18 +8,32 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Conclusions}{5}{section.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{II\hspace {1em}Circular Binary}{5}{part.2}%
+\contentsline {part}{II\hspace {1em}Circular Binary}{6}{part.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Introduction}{5}{section.1}%
+\contentsline {section}{\numberline {1}Introduction}{6}{section.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}Methods, Results and Discussions}{6}{section.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Conclusions}{9}{section.3}%
+\contentsline {section}{\numberline {3}Conclusions}{10}{section.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{III\hspace {1em}Hypervelocity Stars}{9}{part.3}%
+\contentsline {part}{III\hspace {1em}Hypervelocity Stars}{11}{part.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Introduction}{10}{section.1}%
+\contentsline {section}{\numberline {1}Introduction}{11}{section.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Methods, Results and Discussions}{10}{section.2}%
+\contentsline {section}{\numberline {2}Methods, Results and Discussions}{11}{section.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Conclusions}{21}{section.3}%
+\contentsline {section}{\numberline {3}Conclusions}{22}{section.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Appendices}{23}{section*.25}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A}Complete Matlab Programs}{23}{appendix.1.A}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.1}Problem 1}{23}{subsection.1.A.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2}Problem 2}{24}{subsection.1.A.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.3}Problem 3}{26}{subsection.1.A.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {A.3.1}Problems a--e}{26}{subsubsection.1.A.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {A.3.2}Part f}{28}{subsubsection.1.A.3.2}%
